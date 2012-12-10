@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request build="wp7002_132_01" type="update" version="7.0.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PortalConfig_7.0.0_2.xsd">
+    <portal action="locate">
+        <skin action="update" active="true" context-root="/PortalTheme" default="false" domain="rel" objectid="ZK_CGAH47L008LG50IAHUR9Q330S4" resourceroot="IBM" type="default" uniquename="ibm.portal.skin.IBM">
+            <localedata locale="ar">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="da">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="de">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="el">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="en">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="es">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="it">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="no">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="th">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>IBM</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>IBM</title>
+            </localedata>
+        </skin>
+        <skin action="update" active="true" context-root="/PortalTheme" default="false" domain="rel" objectid="ZK_CGAH47L008LG50IAHUR9Q330S2" resourceroot="ThinSkin" type="default" uniquename="wps.skin.thinSkin">
+            <localedata locale="ar">
+                <title>شكل عام بسيط</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Aparença fina</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="da">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="de">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="el">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="en">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Skin delgado</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Habillage fin</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Vékony felszín</title>
+            </localedata>
+            <localedata locale="it">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Tynt skall</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>MáscaraFina</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Tunt skal</title>
+            </localedata>
+            <localedata locale="th">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>İnceDışyüz</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>ThinSkin</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>ThinSkin</title>
+            </localedata>
+        </skin>
+        <skin action="update" active="true" context-root="/PortalTheme" default="false" domain="rel" objectid="ZK_CGAH47L008LG50IAHUR9Q330S6" resourceroot="NoSkin" type="default" uniquename="wps.skin.noSkin">
+            <localedata locale="ar">
+                <title>‏بدون شكل عام‏</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Sense aparença</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>NoSkin</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Intet udseende</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Keine Oberfläche</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Χωρίς μοτίβο</title>
+            </localedata>
+            <localedata locale="en">
+                <title>NoSkin</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Sin skin</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Hahmoton</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Pas d'habillage</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Nincs felszín</title>
+            </localedata>
+            <localedata locale="it">
+                <title>NoSkin</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>ללא_מעטפת</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>スキンなし</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>스킨 없음</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Geen uiterlijk</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Uten skall</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Brak skóry</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>SemMáscara</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Sem Aparência</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Fără skin</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Без оболочки</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Bez vzhľadu</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Brez preobleke</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Inget skal</title>
+            </localedata>
+            <localedata locale="th">
+                <title>NoSkin</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>DışyüzYok</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Без оболонки</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>无外表</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>無面板</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>NoSkin</title>
+            </localedata>
+        </skin>
+        <skin action="update" active="true" context-root="/PortalTheme" default="false" domain="rel" objectid="ZK_CGAH47L008LG50IAHUR9Q330S1" resourceroot="IFrame" type="default" uniquename="wps.iframe.album">
+            <localedata locale="ar">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="da">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="de">
+                <title>I-Frame</title>
+            </localedata>
+            <localedata locale="el">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="en">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="es">
+                <title>IFRAME</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>iFrame-kehys</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Cadre IFrame</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="it">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>I フレーム</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="no">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>I-ramka</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Внутренний фрейм</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>I-ram</title>
+            </localedata>
+            <localedata locale="th">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>信息帧</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>IFrame</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>IFrame</title>
+            </localedata>
+        </skin>
+        <skin action="update" active="true" context-root="/SW" default="false" domain="rel" objectid="ZK_CGAH47L008LG50IAHUR9Q330S5" resourceroot="NoSkin" type="default" uniquename="csa2.noskin">
+            <localedata locale="ar">
+                <title>برنامج بناء الصفحات - بدون شكل عام</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Creador de pàgines - Sense aparença</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Tvůrce stránek - Bez vzhledu</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Page Builder - Intet udseende</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Page Builder - No Skin</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Δημιουργία σελίδων - Χωρίς μοτίβο</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Page Builder - No Skin</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Constructor de Página - Sin skin</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Sivun muodostustoiminto - Hahmoton</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Générateur de pages - Sans habillage</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Oldalkészítő - Nincs felszín</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Page Builder - Nessuno skin</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>בונה הדפים -‏ No Skin</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>ページ・ビルダー - スキンなし</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>페이지 빌더 - 스킨 없음</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Pagina bouwen - Geen uiterlijk</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Sidebygger - No Skin</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Program budujący strony - bez skóry</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Page Builder - Sem máscara</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Construtor de Páginas - Sem Aparência</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Builder pagină - Fără skin</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Компоновщик страниц - без оболочки</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Tvorca stránok - Bez vzhľadu</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Graditelj strani - brez preoblek</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sidbyggfunktion - Skallös</title>
+            </localedata>
+            <localedata locale="th">
+                <title>ตัวสร้างหน้า - ไม่มีสกิน</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Sayfa Oluşturucu - Dışyüz Yok</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Редактор сторінок - Без оболонки</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>页面构建器 － 无外观</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>頁面建置器 - 無面板</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Graditelj stranica - Bez skina</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/skins/NoSkin/]]></parameter>
+        </skin>
+        <skin action="update" active="true" context-root="/PageBuilder2" default="true" domain="rel" objectid="ZK_CGAH47L000CS30IAH1044E1KJ1" resourceroot="Standard" type="default" uniquename="csa2.standard">
+            <localedata locale="ar">
+                <title>برنامج بناء الصفحات - تقليدي</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Creador de pàgines - Estàndard</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Tvůrce stránek - Standardní</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Page Builder - Standard</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Page Builder - Standard</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Δημιουργία σελίδων - Τυπικό</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Page Builder - Standard</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Constructor de Página - Estándar</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Sivun muodostustoiminto - Standardi</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Générateur de pages - Standard</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Oldalkészítő - Normál</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Page Builder - Standard</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>בונה הדפים - רגיל</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>ページ・ビルダー - 標準</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>페이지 빌더 - 표준</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Pagina bouwen - Standaard</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Sidebygger - Standard</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Program budujący strony - standardowy</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Page Builder - Padrão</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Construtor de Páginas - Padrão</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Builder pagină - Standard</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Компоновщик страниц - стандартная</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Tvorca stránok - Štandard</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Graditelj strani - standardni</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sidbyggfunktion - Standard</title>
+            </localedata>
+            <localedata locale="th">
+                <title>ตัวสร้างหน้า - มาตรฐาน</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Sayfa Oluşturucu - Standart</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Редактор сторінок - Standard</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>页面构建器 － 标准</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>頁面建置器 - 建置器</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Graditelj stranica - Standardni</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/skins/Standard/]]></parameter>
+        </skin>
+        <skin action="update" active="true" context-root="/wps/themeModules" default="false" domain="rel" objectid="ZK_2JH9V97TSJ6TB0IRA0IQG01GN0" resourceroot="Hidden" type="default" uniquename="ibm.portal.7002Hidden">
+            <localedata locale="ar">
+                <title>Portal 7.0.0.2 - مخفي</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 7.0.0.2 - Ocult</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 7.0.0.2 - Skrytý</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 7.0.0.2 - Skjult</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 7.0.0.2 - Verdeckt</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 7.0.0.2 - Κρυφό</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 7.0.0.2 - Hidden</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 7.0.0.2 - Oculto</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 7.0.0.2 - Piilotettu</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 7.0.0.2 - Masqué</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 7.0.0.2 - Rejtett</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 7.0.0.2 - Nascosto</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>פורטל 7.0.0.2 - מוסתר</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 7.0.0.2 - 非表示</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>포털 7.0.0.2 - 숨김</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 7.0.0.2 - verborgen</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 7.0.0.2 - Skjult</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 7.0.0.2 - ukryta</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 7.0.0.2 - Oculto</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 7.0.0.2 - Oculto</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 7.0.0.2 - Ascuns</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 7.0.0.2 - скрытая</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 7.0.0.2 - Skryté</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 7.0.0.2 - skrito</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 7.0.0.2 - dold</title>
+            </localedata>
+            <localedata locale="th">
+                <title>พอร์ทัล 7.0.0.2 - ซ่อน</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 7.0.0.2 - Gizlenmiş</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 7.0.0.2 - Прихований</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 7.0.0.2 - 隐藏</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 7.0.0.2 - 隱藏</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 7.0.0.2 - Skriveno</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal7.0.0.2/skins/Hidden/]]></parameter>
+        </skin>
+        <skin action="update" active="true" context-root="/wps/themeModules" default="false" domain="rel" objectid="ZK_2JH9V97TSJ6TB0IRA0IQG01GN4" resourceroot="Standard" type="default" uniquename="ibm.portal.7002Standard">
+            <localedata locale="ar">
+                <title>Portal 7.0.0.2 - قياسي</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 7.0.0.2 - Estàndard</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 7.0.0.2 - Τυπικό</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 7.0.0.2 - Estándar</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 7.0.0.2 - Tavallinen</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 7.0.0.2 - Normál</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>פורטל 7.0.0.2 - סטנדרטי</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 7.0.0.2 - 標準</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>포털 7.0.0.2 - 표준</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 7.0.0.2 - standaard</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 7.0.0.2 - standardowa</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 7.0.0.2 - Padrão</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 7.0.0.2 - Padrão</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 7.0.0.2 - Standard</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 7.0.0.2 - стандартная</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 7.0.0.2 - Štandard</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 7.0.0.2 - standardni</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 7.0.0.2 - standard</title>
+            </localedata>
+            <localedata locale="th">
+                <title>พอร์ทัล 7.0.0.2 - มาตรฐาน</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 7.0.0.2 - Standart</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 7.0.0.2 - Стандартний</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 7.0.0.2 - 标准</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 7.0.0.2 - 標準</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 7.0.0.2 - Standardno</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal7.0.0.2/skins/Standard/]]></parameter>
+        </skin>
+        <skin action="update" active="true" context-root="/wps/themeModules" default="false" domain="rel" objectid="ZK_2JH9V97TSJ6TB0IRA0IQG01GN2" resourceroot="NoSkin" type="default" uniquename="ibm.portal.7002NoSkin">
+            <localedata locale="ar">
+                <title>Portal 7.0.0.2 - بدون شكل عام</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 7.0.0.2 - Sense aparença</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 7.0.0.2 - Bez vzhledu</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 7.0.0.2 - Intet udseende</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 7.0.0.2 - Keine Oberfläche</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 7.0.0.2 - Χωρίς μοτίβο</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 7.0.0.2 - No Skin</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 7.0.0.2 - Sin Skin</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 7.0.0.2 - Hahmoton</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 7.0.0.2 - Sans habillage</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 7.0.0.2 - Nincs felszín</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 7.0.0.2 - Nessuno skin</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>פורטל 7.0.0.2 - ‏No Skin</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 7.0.0.2 - スキンなし</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>포털 7.0.0.2 - 스킨 없음</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 7.0.0.2 - geen uiterlijk</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 7.0.0.2 - Uten skall</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 7.0.0.2 - bez skóry</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 7.0.0.2 - Sem máscara</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 7.0.0.2 - Sem Aparência</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 7.0.0.2 - Fără skin</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 7.0.0.2 - без оболочки</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 7.0.0.2 - Bez vzhľadu</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 7.0.0.2 - brez preoblek</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 7.0.0.2 - skallös</title>
+            </localedata>
+            <localedata locale="th">
+                <title>พอร์ทัล 7.0.0.2 - ไม่มีสกิน</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 7.0.0.2 - Dışyüz Yok</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 7.0.0.2 - Без оболонки</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 7.0.0.2 - 无外观</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 7.0.0.2 - 無外觀</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 7.0.0.2 - Bez skina</title>
+            </localedata>
+            <parameter name="com.ibm.portal.skintype" type="string" update="set"><![CDATA[template]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.file.name.html" type="string" update="set"><![CDATA[skin.html]]></parameter>
+            <parameter name="com.ibm.portal.skin.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal7.0.0.2/skins/NoSkin/]]></parameter>
+        </skin>
+        <theme action="update" active="true" context-root="/PortalTheme" default="false" defaultskinref="ZK_CGAH47L008LG50IAHUR9Q330S4" domain="rel" objectid="ZJ_CGAH47L008LG50IAHUR9Q330H0" resourceroot="Portal" uniquename="ibm.portal.theme.Portal">
+            <localedata locale="ar">
+                <title>‏Portal‏</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portál</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Πύλη</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portaali</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portail</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portál</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portale</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>פורטל</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>포털</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portál</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="th">
+                <title>พอร์ทัล</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>入口網站</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal</title>
+            </localedata>
+            <allowed-skin skin="ZK_CGAH47L008LG50IAHUR9Q330S2" update="set"/>
+            <allowed-skin skin="ZK_CGAH47L008LG50IAHUR9Q330S4" update="set"/>
+            <allowed-skin skin="ZK_CGAH47L008LG50IAHUR9Q330S6" update="set"/>
+            <parameter name="com.ibm.portal.theme.hasBaseURL" type="string" update="set"><![CDATA[true]]></parameter>
+        </theme>
+        <theme action="update" active="true" context-root="/PageBuilder2" default="true" defaultskinref="ZK_CGAH47L000CS30IAH1044E1KJ1" domain="rel" objectid="ZJ_CGAH47L000CS30IAH1044E1KJ5" resourceroot="PageBuilder2" uniquename="csa2.theme">
+            <localedata locale="ar">
+                <title>برنامج بناء الصفحات</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Creador de pàgines</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Tvůrce stránek</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Page Builder</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Page Builder</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Δημιουργία σελίδων</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Page Builder</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Constructor de página</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Sivun muodostustoiminto</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Générateur de pages</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Oldalkészítő</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Page Builder</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>בונה הדפים</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>ページ・ビルダー</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>페이지 빌더</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Pagina bouwen</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Sidebygger</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Program budujący strony</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Page Builder</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Construtor de Páginas</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Builder pagină</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Компоновщик страниц</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Tvorca stránok</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Graditelj strani</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Sidbyggfunktion</title>
+            </localedata>
+            <localedata locale="th">
+                <title>ตัวสร้างหน้า</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Sayfa Oluşturucu</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Редактор сторінок</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>页面构建器</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>頁面建置器</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Graditelj stranica</title>
+            </localedata>
+            <allowed-skin skin="ZK_CGAH47L000CS30IAH1044E1KJ1" update="set"/>
+            <allowed-skin skin="ZK_CGAH47L008LG50IAHUR9Q330S5" update="set"/>
+            <parameter name="com.ibm.portal.themetype" type="string" update="set"><![CDATA[CSA2]]></parameter>
+            <parameter name="theme.capability.dojo" type="string" update="set"><![CDATA[1.4.3]]></parameter>
+            <parameter name="theme.capability.oneUI" type="string" update="set"><![CDATA[2.1]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:fs-type1/layout-templates/2ColumnEqual/]]></parameter>
+            <parameter name="theme.capability.mashups.enabler" type="string" update="set"><![CDATA[2.4]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/PageBuilder2/]]></parameter>
+        </theme>
+        <theme action="update" active="true" default="false" domain="rel" objectid="ZJ_2JH9V97TSRG260IRI19CJD1001" resourceroot="SwocmTheme">
+            <localedata locale="ru">
+                <title>SwocmTheme</title>
+            </localedata>
+        </theme>
+        <theme action="update" active="true" context-root="/wps/themeModules" default="false" defaultskinref="ZK_2JH9V97TSJ6TB0IRA0IQG01GN0" domain="rel" objectid="ZJ_2JH9V97TSJ6TB0IRA0IQG01GN6" resourceroot="dynamicSpots" uniquename="ibm.portal.7002Theme">
+            <localedata locale="ar">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="en">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="ko">
+                <title>포털 7.0.0.2</title>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="ru">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="th">
+                <title>พอร์ทัล 7.0.0.2</title>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 7.0.0.2</title>
+            </localedata>
+            <allowed-skin skin="ZK_2JH9V97TSJ6TB0IRA0IQG01GN0" update="set"/>
+            <allowed-skin skin="ZK_2JH9V97TSJ6TB0IRA0IQG01GN2" update="set"/>
+            <allowed-skin skin="ZK_2JH9V97TSJ6TB0IRA0IQG01GN4" update="set"/>
+            <parameter name="com.ibm.portal.themetype" type="string" update="set"><![CDATA[CSA2]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal7.0.0.2/layout-templates/2ColumnEqual/]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_deferred.json]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/Portal7.0.0.2/]]></parameter>
+        </theme>
+        <theme action="update" active="true" context-root="/SW" default="false" domain="rel" objectid="ZJ_2JH9V97TSR4010IRA8KK4L2005" resourceroot="SW" uniquename="sbrf.themes.SW">
+            <localedata locale="ar">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="ca">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="cs">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="da">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="de">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="el">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="en">
+                <title>SW</title>
+                <description/>
+            </localedata>
+            <localedata locale="es">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="fi">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="fr">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="hu">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="it">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="iw">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="ja">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="ko">
+                <title>포털 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="nl">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="no">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="pl">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="pt">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="pt_BR">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="ro">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="ru">
+                <title>SW</title>
+                <description/>
+            </localedata>
+            <localedata locale="sk">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="sl">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="sv">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="th">
+                <title>พอร์ทัล 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="tr">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="uk">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="zh">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="zh_TW">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <localedata locale="hr">
+                <title>Portal 7.0.0.2</title>
+                <description/>
+            </localedata>
+            <parameter name="com.ibm.portal.themetype" type="string" update="set"><![CDATA[CSA2]]></parameter>
+            <parameter name="com.ibm.portal.friendly.name" type="string" update="set"><![CDATA[SW]]></parameter>
+            <parameter name="com.ibm.portal.layout.template.href" type="string" update="set"><![CDATA[dav:fs-type1/themes/SW/layout-templates/2ColumnEqual/]]></parameter>
+            <parameter name="resourceaggregation.profile" type="string" update="set"><![CDATA[profiles/profile_deferred.json]]></parameter>
+            <parameter name="com.ibm.portal.theme.template.ref" type="string" update="set"><![CDATA[dav:fs-type1/themes/SW/]]></parameter>
+        </theme>
+    </portal>
+    <status element="all" result="ok"/>
+</request>

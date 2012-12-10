@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IBM WebSphere Portal/7.0.0.2 build wp7002_132_01 exported on Fri Nov 30 14:52:23 GMT+04:00 2012 from DF-NOTE-1008201/10.23.115.90 -->
+<!-- 1 [skin ZK_CGAH47L008LG50IAHUR9Q330S4 uniquename=ibm.portal.skin.IBM] -->
+<!-- 2 [skin ZK_CGAH47L008LG50IAHUR9Q330S2 uniquename=wps.skin.thinSkin] -->
+<!-- 3 [skin ZK_CGAH47L008LG50IAHUR9Q330S6 uniquename=wps.skin.noSkin] -->
+<!-- 4 [skin ZK_CGAH47L008LG50IAHUR9Q330S1 uniquename=wps.iframe.album] -->
+<!-- 5 [skin ZK_CGAH47L008LG50IAHUR9Q330S5 uniquename=csa2.noskin] -->
+<!-- 6 [skin ZK_CGAH47L000CS30IAH1044E1KJ1 uniquename=csa2.standard] -->
+<!-- 7 [skin ZK_2JH9V97TSJ6TB0IRA0IQG01GN0 uniquename=ibm.portal.7002Hidden] -->
+<!-- 8 [skin ZK_2JH9V97TSJ6TB0IRA0IQG01GN4 uniquename=ibm.portal.7002Standard] -->
+<!-- 9 [skin ZK_2JH9V97TSJ6TB0IRA0IQG01GN2 uniquename=ibm.portal.7002NoSkin] -->
+<!-- 10 [theme ZJ_CGAH47L008LG50IAHUR9Q330H0 uniquename=ibm.portal.theme.Portal] -->
+<!-- 11 [theme ZJ_CGAH47L000CS30IAH1044E1KJ5 uniquename=csa2.theme] -->
+<!-- 12 [theme ZJ_2JH9V97TSRG260IRI19CJD1001] -->
+<!-- 13 [theme ZJ_2JH9V97TSJ6TB0IRA0IQG01GN6 uniquename=ibm.portal.7002Theme] -->
+<!-- 14 [theme ZJ_2JH9V97TSR4010IRA8KK4L2005 uniquename=sbrf.themes.SW] -->
+<request build="wp7002_132_01" type="update" version="7.0.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PortalConfig_7.0.0_2.xsd">
+    <status element="all" result="ok"/>
+</request>

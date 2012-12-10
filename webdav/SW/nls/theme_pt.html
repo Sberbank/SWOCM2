@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href. 
+	 dyn-cs:* URIs are resolved using the WP DynamicContentSpotMappings resource environment provider. These values can
+	 also be set using theme metadata if a theme is specified in the URI (e.g. @tl:oid:theme_unique_name). -->
+<link rel="dynamic-content" href="co:head">
+<link rel="dynamic-content" href="dyn-cs:id:7002theme_head">
+<!-- rendering is delegated to the specified href for each locale -->
+<script type="text/javascript">
+	(function(){
+	i$.addOnLoad(function() {
+    i$.each(wpthemeAriaRegionIdArray, function(skinSectionId) {
+		var spanId = "regionSpan"+ skinSectionId;
+		var sectionId = "regionSection"+skinSectionId;
+		var ariaRegionId = "wpRegionId"+skinSectionId;
+		var spanIdNode = document.getElementById(spanId);
+		if (spanIdNode){
+    		var spanRegionNode = spanIdNode.nextSibling;
+         // IE vs FF diff in text nodes
+			if(spanRegionNode && spanRegionNode.nodeType != 1) {
+				var tempNode = spanRegionNode.nextSibling;
+             	while (tempNode && tempNode.nodeType != 1) {
+					tempNode = tempNode.nextSibling;      
+             	}
+             	spanRegionNode = tempNode;
+         	}
+ 			if (spanRegionNode){
+				spanRegionNode.setAttribute("id", ariaRegionId);	
+			}			
+		}
+		var sectionIdNode = document.getElementById(sectionId);  
+		if (sectionIdNode)  {
+			var sectionRegionNode = sectionIdNode.parentNode;
+			if(sectionRegionNode) {
+				sectionRegionNode.setAttribute("aria-labelledby",ariaRegionId);				
+			}            
+		} 
+    });
+});
+	
+})();
+</script>
+</head>
+<body class="tundra locale_pt">
+
+	<!-- iWidgets will fill in the two empty divs below -->
+	<div id="customizeShelfContainer"></div><!-- used by the mm_customize_shelf module -->
+	<div id="pageToolbarButtons"></div><!-- used by the mm_page_toolbar module -->
+
+	<div class="wpthemeFrame">
+	
+		<header role="banner">
+		
+			<div class="wpthemeHeader">
+				<div class="wpthemeInner">
+					<div class="wpthemeLogo wpthemeLeft">
+						<span class="wpthemeAltText">IBM WebSphere Portal</span>
+					</div>
+					<!-- responsible for the top most navigation links (horizontal list) -->
+					<a rel="dynamic-content" href="dyn-cs:id:7002theme_topNav"></a>
+					
+					<!-- displays the page mode toggle to place the page into edit mode or view mode -->
+					<a rel="dynamic-content" href="dyn-cs:id:7002theme_pageModeToggle"></a>
+				</div>
+			</div><!-- end header -->
+			
+			<div class="wpthemeBanner">
+				<div class="wpthemeBannerInner">
+					<div class="wpthemeInner">
+						<a rel="dynamic-content" href="dyn-cs:id:7002theme_primaryNav"></a>
+						<a rel="dynamic-content" href="dyn-cs:id:7002theme_commonActions"></a>
+						<div class="wpthemeClear"></div>
+					</div>
+				</div>
+			</div><!--end main banner-->
+			
+			<div class="wpthemeSecondaryBanner">
+				<div class="wpthemeInner">
+					<a rel="dynamic-content" href="dyn-cs:id:7002theme_secondaryNav"></a>
+					<a rel="dynamic-content" href="dyn-cs:id:7002theme_search"></a>
+					<div class="wpthemeClear"></div>
+				</div>
+			</div><!--end secondary banner-->
+		</header>
+
+		<div class="wpthemeClear"></div>	
+		
+		<div class="wpthemeMainContent">
+			<div class="wpthemeInner">		
+				<a rel="dynamic-content" href="dyn-cs:id:7002theme_crumbTrail"></a>
+				<div class="wpthemeClear"></div>
+				<div id="wpthemeStatusBarContainer"></div>
+			</div>		
+
+			<!-- required - do not remove -->
+			<a rel="dynamic-content" href="state.portlet:portlet?include=windowState&include=portletMode&mime-type=text/html"></a>
+			
+			<div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden" role="main">	
+				<div class="wpthemeInner">					
+					<a rel="dynamic-content" href="dyn-cs:id:7002theme_layout"></a>
+					<div class="wpthemeClear"></div>
+				</div>
+			</div>
+		</div><!--end main content-->
+		
+		<footer class="wpthemeFooter">
+			<div class="wpthemeInner">	
+				<a rel="dynamic-content" href="dyn-cs:id:7002theme_footer"></a>
+				<div class="wpthemeClear"></div>
+			</div>
+		</footer><!-- end footer -->
+	
+	</div><!-- end frame -->
+	
+	<!-- active site analytics additions -->
+	<a rel="dynamic-content" href="dyn-cs:id:7002theme_asa"></a>
+    
+	<!-- This is responsible for bootstrapping the configuration for the javascript framework. 
+        This is located here instead of the head section to improve client performance. -->
+    <a rel="dynamic-content" href="co:config"></a>
+</body>
+</html>

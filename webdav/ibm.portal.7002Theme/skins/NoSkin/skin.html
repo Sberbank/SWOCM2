@@ -1,0 +1,17 @@
+<section class="ibmPortalControl wpthemeNoSkin" role="region" aria-labelledby=""> 
+<script type="text/javascript">
+	wpthemeAriaRegionCounter++;
+    document.writeln("<span id='regionSection" + wpthemeAriaRegionCounter + "'></span>");
+    wpthemeAriaRegionIdArray.push(wpthemeAriaRegionCounter);
+</script>
+    <!-- asa.portlet.id marks the node whose contents are the id of this layout control; set at runtime by script in the decoration instance -->
+    <span style="display:none" class="asa.portlet.id"></span>
+    <!-- Hide the text of the title, but still provide the lm-dynamic-title container for accessing the dynamic title -->
+    <span class="wpthemeAccess">
+ 		<script type="text/javascript">document.writeln("<span id='regionSpan"+wpthemeAriaRegionCounter+"'></span>");</script>  	
+    	<span class="lm-dynamic-title asa.portlet.title"><a rel="dynamic-content" href="lm:title"></a></span>
+	</span>
+    <div class="wpthemeOverflowAuto"> <!-- lm:control dynamic spot injects markup of layout control -->
+        <a rel="dynamic-content" href="lm:control"></a> 
+    </div>
+</section> 

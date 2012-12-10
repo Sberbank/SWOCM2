@@ -1,0 +1,13 @@
+{
+	"moduleIDs" : [
+		"wp_portal",
+		"wp_theme_portal_7002",
+		"wp_portlet_css",
+		"wp_legacy_layouts",
+		"wp_layout_windowstates",
+		"wp_client_main",
+		"wp_client_ext",
+		"wp_theme_menus",
+		"wp_one_ui_21"
+	]
+}

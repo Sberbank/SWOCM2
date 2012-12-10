@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webappext:WebAppExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappext="webappext.xmi" xmi:id="WebAppExtension_1354267066103" reloadInterval="3" reloadingEnabled="true" additionalClassPath="" fileServingEnabled="true" directoryBrowsingEnabled="false">
+  <webApp href="WEB-INF/web.xml#WebApp_ID"/>
+  <jspAttributes xmi:id="JSPAttribute_1354607741929" name="reloadEnabled" value="true"/>
+  <jspAttributes xmi:id="JSPAttribute_1354607741930" name="reloadInterval" value="3"/>
+</webappext:WebAppExtension>

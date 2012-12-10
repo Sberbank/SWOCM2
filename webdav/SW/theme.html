@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Единая Фронтальная Система</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/lenta.css" />
+		<link rel="stylesheet" type="text/css" href="css/widget/calendar.css" />
+		<link rel="stylesheet" type="text/css" href="css/widget/kri.css" />
+		<link rel="stylesheet" type="text/css" href="css/widget/add.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/widget/calendar.js"></script>
+	</head>
+	<body>
+		<div class="l-body">
+			<div class="l-page l-clear">
+				<div class="l-header">
+					<div class="b-find">
+						<form action="#">
+							<div class="find-wrapper">
+								<input type="text" class="find-input" value="Поиск по клиентам, продуктам, сделкам" text="Поиск по клиентам, продуктам, сделкам" />
+								<b></b>
+							</div>	
+						</form>
+					</div>
+					<div class="b-user-info">
+						<a href="#" class="user-link link-icon"><i></i>Сергей Никитин</a>
+						<a href="#" class="user-link">Помощь</a>
+					</div>
+				</div>				
+				<div class="l-wrapper">
+					<div class="l-nav">
+						<div class="nav-item nav-item-lenta nav-active"><p class="nav-text">Лента</p></div>						
+						<div class="b-nav-process">
+							<div class="nav-item nav-item-study">
+								<p class="nav-text">Учеба</p>
+								<div class="b-nav-indicator">
+									<div class="nav-indicator-bg">&nbsp;</div>
+									<div class="nav-indicator-current" style="width: 37%;">
+										<p class="nav-indicator-text">37%</p>
+									</div>
+								</div>
+							</div>
+							<div class="nav-item nav-item-clients">
+								<p class="nav-text">Поиск клиентов</p>
+								<div class="b-nav-indicator b-nav-indicator-number">
+									<div class="nav-indicator-bg">
+										<p class="nav-indicator-all">50</p>
+									</div>
+									<div class="nav-indicator-current" style="width: 50%;">
+										<p class="nav-indicator-text">22</p>
+									</div>
+								</div>
+							</div>
+							<div class="nav-item nav-item-sell">
+								<p class="nav-text">Продажи</p>
+								<div class="b-nav-indicator b-nav-indicator-number">
+									<div class="nav-indicator-bg">
+										<p class="nav-indicator-all">12</p>
+									</div>
+									<div class="nav-indicator-current" style="width: 25%;">
+										<p class="nav-indicator-text nav-indicator-text-small">4</p>
+									</div>
+								</div>
+							</div>
+							<div class="nav-item nav-item-monitoring">
+								<p class="nav-text">Мониторинг</p>
+								<div class="b-nav-monitoring">
+									<div class="nav-monitoring-item nav-monitoring-green nav-monitoring-first" style="width: 49%;"><p>47</p></div>
+									<div class="nav-monitoring-item nav-monitoring-yellow" style="width: 36%;"><p>12</p></div>
+									<div class="nav-monitoring-item nav-monitoring-red  nav-monitoring-last" style="width: 14%;"><p>3</p></div>
+								</div>
+							</div>
+						</div>						
+						<div class="nav-item nav-item-organisation"><p class="nav-text">Организации</p></div>
+						<div class="nav-item nav-item-product"><p class="nav-text">Продукты</p></div>
+						<div class="nav-item nav-item-calendar"><p class="nav-text">Календарь</p></div>
+						<div class="nav-item nav-item-my-client"><p class="nav-text">Мои клиенты</p></div>
+						<div class="nav-item nav-item-documents"><p class="nav-text">Документы</p></div>
+						<div class="nav-item nav-item-reposts"><p class="nav-text">Отчеты</p></div>
+						<div class="nav-item nav-item-add"><p class="nav-text">&nbsp;</p></div>
+					</div>
+					<div class="l-content l-content-lenta">
+						<!-- Start Lenta Content -->
+						<div class="content-header">
+							<h4>Лента активности сегодня</h4>
+							<ul class="lenta-nav">
+								<li class="lenta-nav-item lenta-nav-item-active"><p>Все</p><span>&nbsp;</span></li>				
+								<li class="lenta-nav-item"><p>Задачи</p><span>&nbsp;</span></li>	
+								<li class="lenta-nav-item"><p>Звонки</p><span>&nbsp;</span></li>	
+								<li class="lenta-nav-item"><p>Встречи</p><span>&nbsp;</span></li>	
+								<li class="lenta-nav-item"><p>Общение</p><span>&nbsp;</span></li>	
+								<li class="lenta-nav-item"><p>Документы</p><span>&nbsp;</span></li>	
+							</ul>
+						</div>
+						<!-- Start Lenta Task-->
+						<div class="b-lenta-task lenta-task-important">
+							<div class="lenta-task-header">
+								<p>Никитенков А.С.</p>
+								<h4>Встреча с ИП Фроловым В.Н.</h4>
+							</div>
+							<div class="lenta-task-content">
+								<p>
+									Заполнение заявки в АС по Кредиту <a href="#">Доверие</a>, со всеми документами
+								</p>
+							</div>
+							<div class="lenta-task-footer">
+								<div class="b-button b-button-select">
+									Принять
+									<span class="select-list-icon">&nbsp;</span>
+								</div>
+								<div class="b-button">Занят</div>
+								<div class="b-icon icon-talk">&nbsp;</div>
+							</div>
+						</div>
+						<!-- End Lenta Task-->
+						<!-- Start Lenta Task-->
+						<div class="b-lenta-task lenta-task-important lenta-task-text-hide">
+							<div class="lenta-task-header">
+								<p>Герман Греф</p>
+								<h4>Концепция «Офис будущего</h4>
+							</div>
+							<div class="lenta-task-content">
+								<p>
+									Уважаемые коллеги!
+								</p>
+								<p>
+									Приглашаю Вас принять участие в разработке концепции «Офиса будущего».
+								</p>
+								<p>
+									В следующем году мы планируем открыть в Москве «<a href="#">Офис будущего</a>».
+								</p>
+								<p>
+									Каким может быть офис Сбербанка, например, через 5 лет? Какие услуги будет предоставлять банк? В какой форме?  Для чего люди будут приходить в банк, если у каждого будет возможность дистанционно управлять своими средствами с помощью интернет - банка и мобильного банка?
+								</p>
+								<p>
+									Давайте строить будущее вместе! Присылайте свои идеи! Все сотрудники, чьи идеи найдут воплощение в проекте «Офиса будущего» получат денежное вознаграждение.
+								</p>
+								<p>
+									Приз за лучшую идею концепции офиса будущего – 1 000 000 рублей.
+								</p>
+								<p>
+									<i>Герман Греф</i>
+								</p>
+								<div class="lenta-task-content-hide"></div>
+							</div>
+							<div class="b-link-add">
+								<span class="b-link-add-text">Текст полностью</span>
+							</div>
+							<div class="lenta-task-footer lenta-task-footer-add">
+								<div class="b-link link-icon">Отмена</div>
+								<textarea>
+									Я думаю, что офис будущего это большие демонстрационные стенды того что можно приобрести с помощью банка, например в кредит
+								</textarea>
+								<div class="b-button">Отправить</div>
+							</div>
+							<div class="lenta-task-footer">								
+								<div class="b-button b-button-select">
+									Предложить идею
+									<span class="select-list-icon">&nbsp;</span>
+								</div>
+							</div>
+						</div>
+						<!-- End Lenta Task-->
+						<!-- Start Lenta Task, when full text visible -->
+						<div class="b-lenta-task lenta-task-important">
+							<div class="lenta-task-header">
+								<p>Герман Греф</p>
+								<h4>Концепция «Офис будущего</h4>
+							</div>
+							<div class="lenta-task-content">
+								<p>
+									Уважаемые коллеги!
+								</p>
+								<p>
+									Приглашаю Вас принять участие в разработке концепции «<a href="#">Офис будущего</a>».
+								</p>
+								<p>
+									В следующем году мы планируем открыть в Москве «Офис будущего».
+								</p>
+								<p>
+									Каким может быть офис Сбербанка, например, через 5 лет? Какие услуги будет предоставлять банк? В какой форме?  Для чего люди будут приходить в банк, если у каждого будет возможность дистанционно управлять своими средствами с помощью интернет - банка и мобильного банка?
+								</p>
+								<p>
+									Давайте строить будущее вместе! Присылайте свои идеи! Все сотрудники, чьи идеи найдут воплощение в проекте «Офиса будущего» получат денежное вознаграждение.
+								</p>
+								<p>
+									Приз за лучшую идею концепции офиса будущего – 1 000 000 рублей.
+								</p>
+								<p>
+									<i>Герман Греф</i>
+								</p>
+								<div class="lenta-task-content-hide"></div>
+							</div>
+							<div class="b-link-add">
+								<span class="b-link-add-text">Текст полностью</span>
+							</div>
+							<div class="lenta-task-footer lenta-task-footer-add">
+								<div class="b-link link-icon">Отмена</div>
+								<textarea>
+									Я думаю, что офис будущего это большие демонстрационные стенды того что можно приобрести с помощью банка, например в кредит
+								</textarea>
+								<div class="b-button">Отправить</div>
+							</div>
+							<div class="lenta-task-footer">								
+								<div class="b-button b-button-select">
+									Предложить идею
+									<span class="select-list-icon">&nbsp;</span>
+								</div>
+							</div>
+						</div>
+						<!-- End Lenta Task-->
+						<!-- Start Lenta Task, when textarea is visible-->
+						<div class="b-lenta-task lenta-task-important lenta-task-answer">
+							<div class="lenta-task-header">
+								<p>Герман Греф</p>
+								<h4>Концепция «Офис будущего</h4>
+							</div>
+							<div class="lenta-task-content">
+								<p>
+									Уважаемые коллеги!
+								</p>
+								<p>
+									Приглашаю Вас принять участие в разработке концепции «<a href="#">Офис будущего</a>».
+								</p>
+								<p>
+									В следующем году мы планируем открыть в Москве «Офис будущего».
+								</p>
+								<p>
+									Каким может быть офис Сбербанка, например, через 5 лет? Какие услуги будет предоставлять банк? В какой форме?  Для чего люди будут приходить в банк, если у каждого будет возможность дистанционно управлять своими средствами с помощью интернет - банка и мобильного банка?
+								</p>
+								<p>
+									Давайте строить будущее вместе! Присылайте свои идеи! Все сотрудники, чьи идеи найдут воплощение в проекте «Офиса будущего» получат денежное вознаграждение.
+								</p>
+								<p>
+									Приз за лучшую идею концепции офиса будущего – 1 000 000 рублей.
+								</p>
+								<p>
+									<i>Герман Греф</i>
+								</p>
+								<div class="lenta-task-content-hide"></div>
+							</div>
+							<div class="b-link-add">
+								<span class="b-link-add-text">Текст полностью</span>
+							</div>
+							<div class="lenta-task-footer lenta-task-footer-add">
+								<div class="b-link link-icon"><span>Отмена</span></div>
+								<div class="b-textarea">
+									<textarea>Я думаю, что офис будущего это большие демонстрационные стенды того что можно приобрести с помощью банка, например в кредит</textarea>
+								</div>
+								<div class="b-button">Отправить</div>
+							</div>
+							<div class="lenta-task-footer">								
+								<div class="b-button b-button-select">
+									Предложить идею
+									<span class="select-list-icon">&nbsp;</span>
+								</div>
+							</div>
+						</div>
+						<!-- End Lenta Task -->
+						<div class="content-footer">Вчера</div>
+						<!-- End Lenta Content -->
+					</div>
+					<div class="l-widgets">
+						<!-- Start KRI Widget -->
+							<div class="widget-block widget-kri">
+								<div class="w-header">KPI за Декабрь</div>
+								<div class="w-content">									
+									<div class="w-kri-item">
+										<p class="w-kri-text">Мой</p>
+										<div class="w-kri-all" style="width: 75%;">
+											<div class="w-kri-now" style="width: 10%;"></div>
+											<p class="w-kri-number w-kri-number-big">75%</p>
+										</div>										
+									</div>
+									<div class="w-kri-item">
+										<p class="w-kri-text">ВСП</p>
+										<div class="w-kri-all" style="width: 67%;">
+											<div class="w-kri-now" style="width: 10%;"></div>
+											<p class="w-kri-number">67%</p>
+										</div>										
+									</div>
+								</div>
+							</div>
+						<!-- End KRI Widget -->
+						<!-- Start Calendar Widget -->
+							<div class="widget-block widget-calendar">
+							<div class="w-content">
+								<div class="w-icon-collapse"></div>
+								<div class="w-header">
+									<p>4 декабря</p>
+									<span>сегодня</span>
+								</div>
+								<div class="w-timeline">
+									<div class="w-hour-block">
+										<div class="w-hour"><p>9:00</p></div>
+										<div class="w-hour"><p>10:00</p></div>
+										<div class="w-hour"><p>11:00</p></div>
+										<div class="w-hour"><p>12:00</p></div>
+										<div class="w-hour"><p>13:00</p></div>
+										<div class="w-hour"><p>14:00</p></div>
+										<div class="w-hour"><p>15:00</p></div>
+										<div class="w-hour"><p>16:00</p></div>
+										<div class="w-hour"><p>17:00</p></div>
+										<div class="w-hour"><p>18:00</p></div>
+										<div class="w-hour"><p>19:00</p></div>
+									</div>
+									<div class="w-today-indicator">
+										<div class="w-time">10:24</div>
+										<div class="w-today-bg"></div>
+										<div class="w-today-right"></div>
+									</div>
+									<div class="w-tasks-block">
+										<div class="w-tack w-tack-planing w-tack-small" style="top: 6px;">
+											<p>Оперативка</p>
+										</div>
+										<div class="w-tack w-tack-cold" style="top: 28px; height: 123px;">
+											<p>Холодные звонки 10 шт</p>
+										</div>
+										<div class="w-tack w-tack-important" style="top: 168px; height: 33px;">
+											<p>Встреча с ОДО Лютик. Подписание договора и проч</p>
+										</div>
+										<div class="w-tack w-tack-etc" style="top: 218px; height: 33px;">
+											<p>Обед</p>
+										</div>
+										<div class="w-tack w-tack-red w-tack-not-approved" style="top: 268px; height: 83px;">
+											<p>Встреча с ИП  Фроловым В.Н.</p>
+										</div>
+										<div class="w-tack w-tack-cold" style="top: 317px; height: 60px; left: 60px; right: 8px;">
+											<p>Холодные звонки 15 шт</p>
+										</div>
+										<div class="w-tack w-tack-warm w-tack-overflow" style="top: 393px;">
+											<p>Подготовить раздаточный материал</p>
+										</div>
+										<div class="w-tack w-tack-warm" style="top:  428px;">
+											<p>Контроль платежей</p>
+										</div>
+										<div class="w-tack w-tack-planing" style="top:  463px;">
+											<p>План на завтра</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="w-footer">
+								<div class="w-prev">&#8592;</div>
+								<p class="w-today">Сегодня, <span>4 декабря</span></p>
+								<div class="w-next">&#8594;</div>
+							</div>
+						</div>
+						<!-- End Calendar Widget-->
+						<!-- Start Add Widget-->
+							<div class="widget-block widget-add">
+								<div class="w-content">
+									<div class="w-add-item">
+										<div class="w-add-header">Результативность за неделю</div>
+										<div class="w-add-content">
+											<div class="w-add-line">
+												<p>Звонки</p>
+												<div class="w-add-result-line" style="width: 70%; background: #00d5ff;">&nbsp;</div>
+												<div class="w-add-result-number">70</div>
+											</div>
+											<div class="w-add-line">
+												<p>Интерес</p>
+												<div class="w-add-result-line" style="width: 30%; background: #00c553;">&nbsp;</div>
+												<div class="w-add-result-number">30</div>
+											</div>
+											<div class="w-add-line">
+												<p>Встречи</p>
+												<div class="w-add-result-line" style="width: 12%; background: #ffb000;">&nbsp;</div>
+												<div class="w-add-result-number">12</div>
+											</div>
+											<div class="w-add-line">
+												<p>Продажи</p>
+												<div class="w-add-result-line" style="width: 5%; background: #f00;">&nbsp;</div>
+												<div class="w-add-result-number">5</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="w-footer">
+									<div class="b-button button-icon button-icon-add">Добавить виджет</div>									
+								</div>								
+							</div>
+							<div class="widget-block widget-add-hover"></div>
+						<!-- End Add Widget-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
