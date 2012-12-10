@@ -1,0 +1,59 @@
+{
+    "modules":[{
+		"id":"wp_theme_portal_7002",
+		"prereqs":[{
+			"id":"wp_client_main"
+		}],
+		"contributions":[{
+			"type":"head",
+			"sub-contributions":[{
+				"type":"js",
+				"uris":[{
+					"value":"/js/head.js"
+				}]
+			}, {
+				"type":"css",
+				"uris":[{
+					"value":"/css/master.css"
+				},
+				{
+					"value":"/css/masterRTL.css", "type":"rtl"
+				}]
+			}]
+		}]
+	}, {
+		"id":"wp_theme_edit",
+		"prereqs":[{
+			"id":"wp_client_main"
+		}],
+		"contributions":[{
+			"type":"config",
+			"sub-contributions":[{
+				"type":"js",
+				"uris":[{
+					"value":"/js/theme.js"
+				}, {
+					"value":"/js/theme.js.uncompressed.js", "type":"debug"
+				}]
+			}]
+		}]
+	}, {
+		"id":"wp_theme_menus",
+		"prereqs":[{
+			"id":"wp_client_main"
+		}, {
+			"id":"wp_portal"
+		}],
+		"contributions":[{
+			"type":"config",
+			"sub-contributions":[{
+				"type":"js",
+				"uris":[{
+					"value":"/js/contextmenu.js"
+				}, {
+					"value":"/js/contextmenu.js.uncompressed.js", "type":"debug"
+				}]
+			}]
+		}]
+	}]
+}

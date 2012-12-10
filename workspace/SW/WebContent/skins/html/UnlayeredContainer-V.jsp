@@ -13,12 +13,6 @@
 --%>
 <%@ include file="./includePortalTaglibs.jspf" %>
 
-<table class="layoutColumn" cellpadding="0" cellspacing="0">
 	<portal-skin:layoutNodeLoop var="currentLayoutNode">
-	<tr>
-		<td style="width:100%;" valign="top">
 			<portal-skin:layoutNodeRender/>
-		</td>
-	</tr>
 	</portal-skin:layoutNodeLoop> 
-</table>

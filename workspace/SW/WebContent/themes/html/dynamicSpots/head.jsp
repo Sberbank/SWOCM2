@@ -40,6 +40,11 @@
 }
 %>
 
-	<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/styles.css" />
-    <script type="text/javascript" src="/SwStatic/common-resources/jquery.js"></script>
-    <script type="text/javascript" src="/SwStatic/common-resources/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/lenta.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/calendar.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/kri.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/add.css" />
+		<script type="text/javascript" src="/SwStatic/common-resources/js/jquery.js"></script>
+		<script type="text/javascript" src="/SwStatic/common-resources/js/main.js"></script>
+		<script type="text/javascript" src="/SwStatic/common-resources/js/widget/calendar.js"></script>

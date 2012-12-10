@@ -1,0 +1,1060 @@
+html, body, div, span, img, input, p, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: top;
+	background: transparent;
+	outline: none;
+}
+
+body {
+	width: 1400px;
+	background: #dcded6;
+	font-family: 'ms trebuchet';
+}
+
+.wrapper {
+	padding: 37px 0 0 192px;
+	background: none!important;
+}
+
+.header {
+	width: 100%;
+	height: 68px;
+	background: url(img/header.png) no-repeat;
+}
+
+.header-input {
+	font-size: 15px;
+	font-family: Georgia;
+	margin: 15px 0 0 126px;
+	width: 470px;
+	color: #a5a5a5;
+}
+
+.menu {
+	width: 100%;
+	height: 73px;
+}
+
+.lenta .menu {
+	background: url(img/menu.png) no-repeat;
+}
+
+.orgatization .menu {
+	background: url(img/menu-organization.png) no-repeat;
+}
+
+.call  .menu, 
+.clients .menu, 
+.left-proposal .menu {
+	background: url(img/back-to-list.png) no-repeat 100px 20px;
+} 
+
+.today {
+	display: none;
+	color: #000;
+	font-size: 28px;
+	margin: 0 0 0 208px;
+	position: relative;
+	top: -7px;
+	font-family: 'ms trebuchet';
+}
+
+.lenta  .today {
+	display: block;
+}
+
+.menu  ul {
+	display: none;
+	overflow: hidden;
+}
+
+.menu  li{
+	margin-left: 19px;
+	list-style: none;
+	float: left;
+	padding: 2px 12px;
+	color: #6e735f;
+	cursor: pointer;
+}
+
+.menu  li.active{
+	color: #fff;
+	padding: 2px 15px;
+	background: #9da28e;
+	border-top: 1px solid #525844;
+	border-bottom: 1px solid #e2e5dc;
+	border-radius: 20px;
+	cursor: default;
+}
+
+.lenta  ul {
+	display: block;
+	margin: 3px 0 0 72px;
+	position: relative;
+	z-index: 20;
+}
+
+.center {
+	position: relative;
+	padding: 0 0 50px 89px;	
+}
+
+.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90px;
+	height: 424px;
+}
+
+.left  div {
+	cursor: pointer;
+}
+
+.left  div.reset {
+	cursor: default;
+}
+
+.lenta {
+	width: 100%;
+	height: 61px;
+	background: url(img/lenta.png) no-repeat;
+}
+
+.lenta.active, 
+.lenta:hover {
+	background-position: 0 -61px;
+}
+
+.left .call {
+	width: 100%;
+	height: 74px;
+	background: url(img/call.png) no-repeat 0 -74px;
+}
+
+.left .call.active, 
+.left .call:hover {
+	background-position: 0 -148px;
+}
+
+.activeCall .left .call  {
+	background-position: 0 0!important;
+}
+
+.left .clients {
+	width: 100%;
+	height: 68px;
+	background: url(img/clients.png) no-repeat 0 -68px;
+}
+
+.clients.active, 
+.clients:hover {
+	background-position: 0 0;
+}
+
+.orgatization {
+	width: 100%;
+	height: 74px;
+	background: url(img/organization.png) no-repeat 0 -74px;
+}
+
+.orgatization.active, 
+.orgatization:hover {
+	background-position: 0 0;
+}
+
+.plan-sell {
+	width: 100%;
+	height: 126px;
+	background: url(img/plan-sell.png) no-repeat;
+}
+
+.left-add {
+	width: 100%;
+	height: 84px;
+	background: url(img/left-add.png) no-repeat;
+}
+
+.right {
+	position: absolute;
+	top: 0;
+	left: 651px;
+	width: 247px;
+	height: 638px;
+	background: url(img/right.png) no-repeat;
+}
+
+.widget {
+	position: absolute;
+	top: 638px;
+	left: 651px;
+	width: 247px;
+	z-index: 200;
+}
+
+.widget  .result {
+	width: 100%;
+	height: 144px;
+	background: url(img/result.png) no-repeat;
+}
+
+.widget  .add {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: url(img/add-widget.png) no-repeat;
+	cursor: pointer;
+}
+
+.widget-hover {
+	display: none;
+	position: relative;
+	top: 50px;
+	width: 100%;
+	height: 310px;
+	background: url(img/widget-hover.png) no-repeat;
+	z-index: 10;
+}
+
+.widget  .add:hover .widget-hover {
+	display: block;
+}
+
+.widget-add {
+	position: absolute;
+	top: 48px;
+	left: 10px;
+	width: 111px;
+	height: 14px;
+	padding-top: 86px;
+	text-align: center;
+	font-size: 14px;
+	background: url(img/widget-default.png) no-repeat center top;
+}
+
+.client-block, 
+.sell-block, 
+.birthday-block {
+	display: none;
+	height: 120px;
+	width: 210px;
+	padding: 10px 0 0 20px;
+	background: url(img/widget-bg.png) repeat-y;
+	font-weight: bold;
+}
+
+.widget-content {
+	border-radius: 5px;
+	margin: 10px 10px 0 0;
+	padding: 30px 20px;
+	font-weight: normal;
+	color: #fff;
+	background: #b8b8b8;
+}
+
+.client-block.active, 
+.sell-block.active, 
+.birthday-block.active {
+	display: block;
+}
+
+.widget-add:hover {
+	background: url(img/widget-add-hover.png) no-repeat center top;
+}
+
+.widget-add.active {
+	background: url(img/widget-active.png) no-repeat center top;
+}
+
+.widget-sell {
+	left: 120px;
+}
+
+.widget-birthday {
+	top: 180px;
+}
+
+.widget-result {
+	top: 180px;
+	left: 120px;
+}
+
+.clients .right,
+.orgatization .right,
+.clients .widget, 
+.orgatization .widget, 
+.left-proposal .right,
+.left-proposal .widget  {
+	left: 761px;
+}
+
+.scroll-block {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 595px;
+	width: 40px;
+	height: 239px;
+	background: url(img/scroll-block.png) no-repeat;
+	z-index: 10;
+}
+
+.container {
+	position: relative;
+	top: -3px;
+	width: 497px;
+}
+
+.lenta-block, 
+.lenta-done,
+.lenta-proposal {
+	display: none;
+	width: 100%;
+}
+
+.proposal .all .lenta-proposal, 
+.proposal .meeting .lenta-proposal {
+	display: block;
+	position: relative;
+	height: 160px;
+	background: url(img/proposal.png) no-repeat;
+}
+
+.issue-proposal {
+	position: absolute;
+	top: 100px;
+	left: 280px;
+	height: 40px;
+	width: 170px;
+	cursor: pointer;
+}
+
+.lenta  .scroll-block, 
+.lenta  .lenta-block, 
+.lenta  .lenta-done {
+	display: block;
+}
+
+.center.all .lenta-block {
+	height: 1205px;
+	background: url(img/center.png) no-repeat;
+}
+
+.center.document .lenta-block {
+	margin-left: 7px;
+	height: 214px;
+	background: url(img/lenta-doc.png) no-repeat;
+}
+
+.center.meeting .lenta-block {
+	margin-left: 7px;
+	height: 267px;
+	background: url(img/lenta-meeting.png) no-repeat;
+}
+
+.center.call .lenta-block {
+	margin-left: 5px;
+	height: 557px;
+	background: url(img/lenta-call.png) no-repeat;
+}
+
+.center.task .lenta-block {
+	margin-left: 40px;
+	height: 158px;
+	background: url(img/lenta-task.png) no-repeat;
+}
+
+.communication .lenta-block {
+	margin-left: 7px;
+	height: 278px;
+	background: url(img/lenta-communication.png) no-repeat;
+}
+
+ .lenta-done { 
+	width: 100%;
+	height: 345px;
+	background: url(img/lenta-done.png) no-repeat;
+}
+
+.footer {
+	display: none;
+}
+
+.lenta .footer {
+	display: block;
+	margin-top: 64px;
+}
+
+.footer-line {
+	margin: 14px -8px 10px;
+	height: 1px;
+	width: 554px;
+	background: #c5c5c5;
+}
+
+.footer p {
+	display: inline-block;
+	border-bottom: 1px solid #151515;
+	color: #151515;
+}
+
+.footer span{
+	font-weight: bold;
+}
+
+.orgatization .container {
+	height: 740px;
+	width: 660px;
+	background: url(img/wrapper-organization.png) no-repeat;
+}
+
+.container-button {
+	display: none;
+	position: absolute;
+	top: 584px;
+	left: 50px;
+	width: 205px;
+	height: 37px;
+	cursor: pointer;
+}
+
+.orgatization .container-button {
+	display: block;
+}
+
+.gray {
+	color: #636460;
+}
+
+.organisation-block {
+	display: none;
+	position: relative;
+}
+
+.orgatization .organisation-block {
+	display: block;
+}
+
+ .call-check {
+	border: 1px solid red;
+	position: absolute;
+	left: 21px;
+	top: 110px;
+ }
+ 
+ .call-check2 {
+	top: 160px;
+ }
+  
+ .call-check3 {
+	top: 218px;
+}
+  
+.call-check4 {
+	top: 270px;
+}
+  
+.call-check5 {
+	top: 314px;
+}
+  
+.call-check6 {
+	top: 372px;
+}
+  
+.call-check7 {
+	top: 417px;
+}
+  
+.call-check8 {
+	top: 471px;
+}
+  
+.call-check9 {
+	top: 529px;
+}
+
+/*clients*/
+.clients .container {
+	height: 1106px;
+	width: 100%;
+	background: url(img/wrapper-clients.png) no-repeat  10px 3px;
+}
+
+.client-container {
+	display: none;
+	width: 662px;
+	position: absolute;
+	top: 486px;
+	left: 10px;
+	height: 599px;
+	background: url(img/client-product.png) no-repeat;
+}
+
+.table-collapse {
+	display: none;
+	position: absolute;
+	top: 314px;
+	left: 211px;
+	width: 160px;
+	height: 31px;
+	cursor: pointer;
+	z-index: 20;
+}
+
+.clients .table-collapse {
+	display: block;
+}
+
+.client-collapse .table-collapse { 
+	left: 61px;
+}
+
+.client-table {
+	display: none;
+	position: absolute;
+	top: 284px;
+	left: 0;
+	width: 660px;
+	height: 312px;
+	background: url(img/client-platej.png) no-repeat;
+}
+
+.client-collapse .client-table {
+	display: block;
+}
+
+.clients .client-container {
+	display: block;
+}
+
+/*call*/
+.center.call .lenta-block, 
+.wrapper.call .lenta-block {
+	display: block;
+	width: 100%;
+	margin-left: 5px;
+	height: 557px;
+	background: url(img/lenta-call.png) no-repeat;
+}
+
+.activeCall .wrapper.call .lenta-block {
+	display: none;
+}
+
+.activeCall .wrapper.call .container {
+	height: 766px;
+	width: 590px;
+	background: url(img/wrapper-call.png) no-repeat 0 3px;
+}
+
+.step3 .container {
+	height: 1606px;
+}
+
+ .call-bg {
+	display: none;
+	position: absolute;
+	top: 532px;
+	width: 591px;
+	height: 382px;
+	overflow: hidden;
+	background: url(img/call-step2.png) no-repeat;
+}
+
+.step2 .call-bg {
+	display: block;
+}
+
+.step3 .call-bg {
+	height: 774px;
+	display: block;
+	top: 530px;
+	background: url(img/call-step3.png) no-repeat;
+}
+
+.call-step2,
+.call-step3,
+.call-request {
+	display: none;
+}
+
+.call .call-step2 {
+	position: absolute;
+	top: 600px;
+	left: 470px;
+	width: 100px;
+	height: 50px;
+	display: block;
+	cursor: pointer;
+}
+
+.step2 .call-step3 {
+	position: absolute;
+	top: 840px;
+	left: 420px;
+	width: 100px;
+	height: 50px;
+	display: block;
+	cursor: pointer;
+}
+
+.step3 .call-request {
+	position: absolute;
+	top: 950px;
+	left: 399px;
+	width: 200px;
+	height: 50px;
+	display: block;
+	cursor: pointer;
+}
+
+.call .right, 
+.call .widget {
+	left: 686px;
+}
+
+/* issue-proposal */
+.left .left-proposal {
+	width: 92px;
+	height: 74px;
+	background: url(img/left--proposal.png) no-repeat 0 -148px;	
+}
+
+.left-proposal.active {
+	background-position: 0 -74px;	
+}
+
+.proposal-start .left .left-proposal {
+	background-position: 0 0;	
+}
+
+.left .left-proposal.active,
+.left .left-proposal:hover {
+	background-position: 0 -74px;	
+}
+
+.wrapper-proposal .left .left-proposal {
+	display: block;
+}
+
+.proposal-step1 {
+	display: none;
+	position: relative;
+	width: 650px;
+	height: 589px;
+	background: url(img/proposal-step1.png) no-repeat;	
+}
+
+.left-proposal .proposal-step1 {
+	display: block;
+}
+
+.body-step2 .proposal-step1,
+.body-step3 .proposal-step1,
+.body-step4 .proposal-step1 {
+	display: none;
+}
+
+.proposal-step2 {
+	display: none;
+	width: 650px;
+	height: 398px;
+	background: url(img/proposal-step2.png) no-repeat;	
+}
+
+.body-step2  .left-proposal .proposal-step2 {
+	display: block;
+}
+
+.proposal-input {
+	position: absolute;
+	top: 295px;
+	left: 155px;
+	height: 20px;
+	width: 260px;
+	font-size: 13px;	
+}
+
+.proposal-input2 {
+	top: 327px;
+}
+
+.proposal-input3 {
+	top: 437px;
+}
+
+.button-step1 {
+	display: none;
+	position: absolute;
+	top: 530px;
+	left: 530px;
+	width: 88px;
+	height: 39px;
+	background: url(img/further.png) no-repeat;
+	cursor: pointer;
+}
+
+.button-step1.active {
+	display: block;
+}
+
+.inn-check {
+	display: none;
+	position: absolute;
+	top: 327px;
+	left: 430px;
+	width: 200px;
+	height: 22px;
+	background: url(img/loading.gif) no-repeat left center;
+	padding-left: 40px;
+	color: #ababa9;
+}
+
+.inn-check.true {
+	background: url(img/stop-list-true.png) no-repeat left center;
+	padding: 9px 0 0 25px;
+	top: 320px;
+	left: 435px;
+}
+
+.lenta-proposal-step2 {
+	display: none;
+	position: relative;
+	height: 294px;
+	background: url(img/lenta-proposal-step3.png) no-repeat 10px 4px;
+}
+
+.body-step2 .lenta .all .lenta-proposal-step2,
+.body-step2 .lenta .meeting .lenta-proposal-step2 {
+	display: block;
+}
+
+.issue-step3 {
+	position: absolute;
+	top: 220px;
+	left: 250px;
+	cursor: pointer;
+	width: 180px;
+	height: 40px;
+}
+
+.proposal-step3 {
+	display: none;
+	width: 651px;
+	height: 776px;
+	background: url(img/proposal-step3.png) no-repeat;
+}
+
+.body-step3  .left-proposal .proposal-step3 {
+	display: block;
+}
+
+.proposal-input-step3 {
+	position: absolute;
+	top: 415px;
+	left: 165px;
+	height: 20px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.proposal-input-step3-2 {
+	top: 446px;
+}
+
+.proposal-input-step3-3 {
+	top: 478px;
+}
+
+.proposal-input-step3-4 {
+	top: 547px;
+}
+
+.proposal-input-step3-5 {
+	top: 577px;
+}
+
+.proposal-input-step3-6 {
+	top: 608px;
+}
+
+.proposal-input-step3-7 {
+	top: 643px;
+}
+
+.proposal-input-step3-8 {
+	top: 677px;
+}
+
+.proposal-input-step3-9 {
+	top: 547px;
+	left: 495px;
+	width: 50px;
+}
+
+.button-step3 {
+	top: 717px;
+	left: 510px;
+}
+
+.proposal-step4 {
+	display: none;
+	width: 650px;
+	height: 473px;
+	background: url(img/proposal-step4.png) no-repeat;
+}
+
+.body-step4  .left-proposal  .proposal-step4 {
+	display: block;
+}
+
+.lenta-proposal-step4 {
+	display: none;
+}
+
+.body-step4 .lenta .lenta-proposal-step4 {
+	display: block;
+	width: 100%;
+	height: 380px;
+	background: url(img/lenta-proposal-step4.png) no-repeat 10px 3px;
+}
+
+.issue-step4 {
+	position: absolute;
+	top: 305px;
+	left: 250px;
+	cursor: pointer;
+	width: 180px;
+	height: 40px;
+}
+
+.meeting-final {
+	display: none;
+	width: 100%;
+	height: 170px;
+	background: url(img/meeting-final.png) no-repeat 10px 3px;
+}
+
+/* body-client */
+.body-client .header {
+	margin: 0 0 10px -15px;
+	background: url(img/client-header.png) no-repeat;
+	height: 90px;
+}
+
+.body-client .main-menu {
+	height: 77px;
+	background: url(img/client-main-menu.png) no-repeat;
+}
+
+.body-client .presentation {
+	height: 92px;
+	background: url(img/client-presentation.png) no-repeat;
+}
+
+.body-client .container {
+	margin-left: 10px;
+}
+
+.body-client .right {
+	position: absolute;
+	top: -25px;
+	left: 600px;
+	width: 195px;
+	height: 310px;
+	background: url(img/clietns-right.png) no-repeat;
+}
+
+.body-client .client-center {
+	width: 607px;
+	height: 407px;
+	background: url(img/client-center.png) no-repeat;
+}
+
+.client-step2 .client-center {
+	width: 607px;
+	height: 312px;
+	background: url(img/client-center-2.png) no-repeat;
+}
+
+.client-step3  .client-center {
+	width: 611px;
+	height: 669px;
+	background: url(img/client-center-3.png) no-repeat;
+}
+
+.body-client .client-bottom {
+	width: 287px;
+	height: 89px;
+	background: url(img/client-bottom.png) no-repeat;
+}
+
+.client-step2 .client-bottom {
+	width: 590px;
+	height: 200px;
+	background: url(img/client-bottom-step2.png) no-repeat;
+}
+
+.client-step3 .client-bottom {
+	width: 612px;
+	height: 200px;
+	background: url(img/client-bottom-step3.png) no-repeat -20px -10px;
+}
+
+.link-client {
+	display: none;
+}
+
+.call .link-client {
+	display: block;
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top: 70px;
+	left: 30px;
+}
+
+.client-doc {
+	display: none;
+	width: 77px;
+	height: 213px;
+	background: url(img/client-left-doc.png) no-repeat;
+}
+
+.client-step2 .client-doc, 
+.client-step3 .client-doc {
+	display: block;
+}
+
+.show-step {
+	position: absolute;
+	top: -132px;
+	left: 100px;
+	padding: 11px 20px;
+	border: 1px dashed #4D4D4D;
+	color: gray;
+	z-index: 100;
+	cursor: pointer;
+	z-index: 100;	
+}
+
+.clients .personal-link {
+	display: block;
+}
+
+.call-link {
+	display: none;
+	position: absolute;
+	top: 330px;
+	left: 350px;
+	width: 100px;
+	height: 60px;
+	cursor: pointer;
+}
+
+.lenta .all .call-link {
+	display: block;
+}
+
+.lenta .call .call-link, 
+.wrapper.call .call-link  {
+	display: block;
+	top: 0;
+	left: 350px;
+}
+
+.activeCall .wrapper.call .call-link  {
+	display: none;
+}
+
+.info-block {
+	display: none;
+	position: absolute;
+	top: 419px;
+	left: 0;
+	padding: 9px 20px;
+	border: 1px dashed #4D4D4D;
+	color: #000;
+	z-index: 100;
+	white-space: nowrap;
+	background: pink;
+}
+
+.body-step2 .left-proposal .info-block {
+	display: block;
+}
+
+
+.info-block1 {
+	display: none;
+	position: absolute;
+	top: 489px;
+	left: 0;
+	padding: 9px 20px;
+	border: 1px dashed #4D4D4D;
+	color: #000;
+	z-index: 100;
+	white-space: nowrap;
+	background: pink;
+}
+
+.body-step4 .left-proposal .info-block1 {
+	display: block;
+}
+
+.link-lenta {
+	display: inline-block;
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
+}
+
+.organization-card {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	width: 100px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.core .client-container {
+	display: none;
+}
+
+.back-to-list {
+	position: absolute;
+	top: 120px;
+	left: 300px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.link-meeting {
+	position: absolute;
+	top: 100px;
+	left: 220px;
+	width: 210px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.call-reset {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 500px;
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.activeCall .call-reset {
+	display: block;
+}
