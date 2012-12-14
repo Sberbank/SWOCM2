@@ -1,0 +1,442 @@
+/* Lenta Block */
+.lenta-nav  {
+	margin: 9px 0;
+}
+
+.lenta-nav-item {
+	position: relative;
+	display: inline-block; *display: inline; zoom: 1;
+	margin-right: -6px;
+	height: 25px;
+	padding: 0 13px;
+	
+	font-size: 14px;
+	color: #6e735f;
+	cursor: pointer;
+}
+
+.lenta-nav-item p{
+	padding: 6px 4px 5px;
+}
+
+.lenta-nav-item:hover {
+	color: #fbb13b;
+}
+
+.lenta-nav-item-active {
+	background: url(../img/lenta-nav-bg.png) no-repeat;
+	cursor: default;
+}
+
+.lenta-nav-item-active p{
+	color: #fff;
+	background: url(../img/lenta-nav-bg.png) 0 -25px;	
+}
+
+.lenta-nav-item-active span{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 13px;
+	height: 100%;
+	background: url(../img/lenta-nav-bg.png) no-repeat right -50px;	
+}
+
+.b-lenta-task {
+	margin-bottom: 17px;
+	width: 90%;
+	max-width: 800px;
+	
+	background: #fff;
+	box-shadow: 0 1px 5px #777;
+	line-height: 1.3;	
+	color: #000;
+}
+
+
+/* Lenta Task Default */
+.b-lenta-task-item {
+	border-left: 4px solid #ffa838;
+	margin-left: 32px;
+}
+
+.b-lenta-task-item  p {
+	color: #818181;
+}
+
+.lenta-task-important p {
+	color: #000;
+}
+
+/* Lenta Task Important */
+.lenta-task-important {
+	border-left: 4px solid #f2174a;
+	margin-left: 0;
+}
+
+.lenta-task-header {
+	padding: 13px 14px 0 29px;
+}
+
+.lenta-task-header p {
+	padding-left: 10px;
+	
+	font-size: 10px;
+	color: #959595;
+	text-transform: uppercase;
+	background: url(../img/name-arrow.png) no-repeat left center;
+}
+
+.lenta-task-header h4 {
+	padding-top: 3px;
+	padding-bottom: 6px;
+	
+	font-size: 16px;
+}
+
+.lenta-task-content {
+	position: relative;
+	overflow: hidden;
+	padding: 6px 14px 0 29px;
+	margin-bottom: 20px;
+}
+
+.lenta-task-content p {
+	padding-bottom: 7px;
+	padding-right: 17px;
+	font-size: 13px;
+}
+
+
+.lenta-task-content i {
+	display: block;
+	padding-top: 11px;
+}
+
+.lenta-task-content a {
+	color: #387b9d;
+	border-bottom: 1px solid #a7bfce;
+}
+
+.lenta-task-content a:hover {
+	color: #fbb13b;
+	border-color: #fbb13b;
+	border-color: rgba(251, 177, 59, 0.6);
+}
+
+.lenta-task-footer {
+	overflow: hidden;
+	padding: 0 14px 10px 29px;
+}
+
+.lenta-task-footer .b-button {
+	float: right;
+	margin-left: 14px;
+}
+
+.lenta-task-footer .b-button-select {
+	padding-right: 27px;
+}
+
+.lenta-task-footer  .select-list-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	
+	width: 17px;
+	border-left: 1px solid #b8b8b8;
+	background: url(../img/button-select-arrow.png) no-repeat;
+}
+
+.lenta-task-footer  .select-list-icon:hover {
+	background-position: 0 -24px;
+}
+
+.lenta-task-footer .b-icon {
+	float: left;
+	margin-left: 20px;
+}
+
+.lenta-task-footer .icon-talk {
+	width: 23px;
+	height: 21px;
+	background: url(../img/icon-talk.png) no-repeat;
+}
+
+.b-link-add {
+	display: none;
+	padding-left: 29px;
+	padding-bottom: 10px;
+}
+
+.b-link-add a {
+	border-bottom: 1px dashed #009ee0;
+	font-size: 14px;
+	color: #26a5e2;
+}
+
+.lenta-task-text-hide .lenta-task-content-hide,
+.lenta-task-text-hide .b-link-add {
+	display: block;
+}
+
+.lenta-task-text-hide .lenta-task-content a {
+	color: #000;
+	border: 0;
+}
+
+.lenta-task-text-hide .lenta-task-content { 
+	max-height: 60px;
+}
+
+.lenta-task-content-hide {
+	display: none;
+	position: absolute;
+	top: 46px;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	z-index: 100;
+	background: url(../img/task-full-text-bg.png) repeat-x;
+}
+
+
+/* Lenta Task when textarea is visible */
+.lenta-task-answer .lenta-task-footer,
+.lenta-task-footer-add {
+	display: none;
+	border-top: 1px solid #e6e6e6;
+	padding: 9px 21px 24px 27px;
+	background: url(../img/lenta-task-footer-add.png) repeat-x left bottom;
+}
+
+.lenta-task-answer .lenta-task-footer-add {
+	display: block;
+}
+
+.link-icon-cancel {
+	padding-left: 15px;
+	color: #b5722a;
+	font-size: 13px;
+	background: url(../img/icon-cancel.png) no-repeat left center;
+}
+
+.link-icon-cancel span {
+	border-bottom: 1px solid #e9dcd3;
+}
+
+.link-icon-cancel span {
+	border-bottom: 1px solid #e9dcd3;
+}
+
+.b-textarea {
+	margin: 6px 0 12px;
+	border: 1px solid #dadada;
+	border-top: 1px solid #909090;
+	border-bottom: 0;
+	height: 58px;
+	padding: 14px 4px 8px 10px;
+	background: url(../img/textarea-bg.png) repeat-x #fff;	
+}
+
+.lenta-task-answer textarea {
+	height: 100%;
+	width: 100%;
+}
+
+/* Lenta Task Document */
+.lenta-task-document {
+	border-bottom-right-radius: 13px;
+	border-left: 4px solid #97bf0d;
+	margin-left: 32px;
+	padding-left: 71px;
+	background: url(../img/lenta-document.png) no-repeat 13px center #fff;
+	box-shadow: 4px 7px 20px #888;
+}
+
+.lenta-task-document .lenta-task-footer {
+	padding-bottom: 14px;
+	background: url(../img/lenta-doc-corner.png) no-repeat right bottom;
+}
+
+/* Lenta Task Call */
+.lenta-task-call { 
+	position: relative;
+	border-left: 4px solid #969696;
+	border-radius: 6px;
+	background: #e5e5e8;
+}
+
+.lenta-call-list {
+	position: relative;
+	border-top: 1px solid #dadadd;
+	padding: 11px 78px 10px 0;
+	
+	color: #5f5f61;
+	cursor: pointer;
+}
+
+.lenta-call-list strong {
+	color: #000;
+}
+
+.lenta-call-list:first-child {
+	border-top: 0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+.lenta-call-list:hover {
+	background: url(../img/lenta-call-favorite.png) 7px 14px #fff no-repeat;
+}
+
+.lenta-call-icon {
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	margin-top: -18px;
+	width: 36px;
+	height: 36px;
+	font-size: 0;
+	background: url(../img/lenta-call.png);
+}
+
+.lenta-call-list:hover .lenta-call-icon {
+	display: block;
+}
+
+.lenta-call-icon:hover {
+	background-position: 0 -36px;
+}
+
+.lenta-call-header, 
+.lenta-call-text {
+	padding-left: 27px;
+}
+
+.lenta-task-call  .lenta-task-footer { 
+	border-top: 1px solid #bababc;
+	padding: 6px 10px 6px 24px;
+	background: #c3c3c3;
+}
+
+.lenta-task-call  .lenta-task-footer  .b-button{	
+	float: left;
+	margin: 0;
+	border: 1px solid #8D8D8E;
+}
+
+/* Lenta Task Call Info */
+.lenta-task-call-info {
+	margin-top: 46px;
+	border-left: 4px solid #55a4dd;
+}
+
+.lenta-task-call-info-header {
+	position: absolute;
+	top: -18px;
+	left: -4px;	
+	height: 21px;
+	width: 266px;
+	padding: 3px 0 0 26px;
+	
+	font-size: 11px;
+	color: #fff;
+	background: url(../img/lenta-call-info.png) no-repeat;
+	z-index: 10;
+}
+
+
+.lenta-call-number {
+	display: none;
+	padding: 8px 0 18px 25px;
+}
+
+.lenta-call-number a {
+	border-color: #00a4cf;
+	font-size: 22px;
+	color: #00a4cf;
+}
+
+.lenta-task-call .lenta-call-list-active  {
+	background: #fff;
+	cursor: default;
+}
+
+.lenta-call-list-active .lenta-call-number {
+	display: block;
+	
+}
+
+.lenta-call-list-active .lenta-call-icon {
+	display: block;
+	right: 6px;
+	width: 60px;
+	
+	background: url(../img/lenta-call-active.png)  no-repeat;
+	cursor: pointer;
+}
+
+/* Lenta Footer */
+.content-footer {
+	margin-top: 50px;
+	color: #000;
+}
+
+.lenta-done-header {
+	margin-bottom: 18px;
+	font-size: 23px;
+	font-style: italic;
+	color: #929292;
+}
+
+.lenta-done-day {
+	margin: 30px 0;
+	border-top: 1px solid #c5c5c5;	
+	padding: 16px 0 0 24px;
+	
+	font-size: 17px;
+	color: #151515;
+	text-decoration: underline;
+}
+
+.lenta-done-day p {
+	margin-top: 25px;
+}
+
+.lenta-done-day a {
+	color: #151515;
+	border-color: #151515;
+}
+
+.b-lenta-done .b-lenta-task {
+	border: 0;
+	box-shadow: 0 0 3px #999;
+}
+
+.b-lenta-done .b-button {
+	border: 0;
+	cursor: default;
+	background: url(../img/b-accepted.png) no-repeat left center;
+	color: #000;
+}
+
+.b-lenta-done .lenta-task-call .lenta-task-footer {
+	display: none;
+}
+
+.b-lenta-done .lenta-call-list {
+	cursor: default;
+	background: none;
+}
+
+.b-lenta-done .lenta-call-icon { 
+	display: block;
+	margin-top: -14px;
+	background: none;
+	font-size: 12px;
+	color: #777;
+}

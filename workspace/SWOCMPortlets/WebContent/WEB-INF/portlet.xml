@@ -88,4 +88,26 @@
 			<keywords>AddWidgetPortlet</keywords>
 		</portlet-info>
 	</portlet>
+	<portlet>
+		<portlet-name>ClientCallPortlet</portlet-name>
+		<display-name>ClientCallPortlet</display-name>
+		<display-name xml:lang="ru">ClientCallPortlet</display-name>
+		<portlet-class>ru.sbrf.swocm.portlets.clientcall.ClientCallPortlet</portlet-class>
+		<init-param>
+			<name>wps.markup</name>
+			<value>html</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<supported-locale>ru</supported-locale>
+		<resource-bundle>ru.sbrf.swocm.portlets.clientcall.nl.ClientCallPortletResource</resource-bundle>
+		<portlet-info>
+			<title>ClientCallPortlet</title>
+			<short-title>ClientCallPortlet</short-title>
+			<keywords>ClientCallPortlet</keywords>
+		</portlet-info>
+	</portlet>
 </portlet-app>

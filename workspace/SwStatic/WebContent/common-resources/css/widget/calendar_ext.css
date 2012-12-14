@@ -1,0 +1,142 @@
+
+.widget-calendar .priority0 {
+    border: 1px solid #B7B7B7;
+    background: #D0D0D0;
+    color: #363636;
+}
+
+.widget-calendar .priority1 {
+	border: 1px solid #78b125;
+	background: #a7cc4f;
+}
+
+.widget-calendar .priority2 {
+    border: 1px solid #258FB1;
+    background: #4FB6CC;
+}
+
+.widget-calendar .priority3 {
+    border: 1px solid #FF8300;
+    background: #FFAE00;
+    color: #363636;
+}
+
+.widget-calendar .priority4 {
+    border: 1px solid #CB6B67;
+    background: #CB2B25;
+}
+
+.widget-calendar .w-tack {
+    margin: 2px 0;
+}
+
+.widget-calendar .intersection1 {
+    margin-left: 10px;    
+}
+
+.widget-calendar .intersection2 {
+    margin-left: 20px;    
+}
+
+.widget-calendar .intersection3 {
+    margin-left: 30px;    
+}
+
+.widget-calendar .start08h_00m { top: -34px;}
+.widget-calendar .start08h_15m { top: -21px;}
+.widget-calendar .start08h_30m { top: -9px;}
+.widget-calendar .start08h_45m { top: 4px;}
+.widget-calendar .start09h_00m { top: 16px;}
+.widget-calendar .start09h_15m { top: 29px;}
+.widget-calendar .start09h_30m { top: 41px;}
+.widget-calendar .start09h_45m { top: 54px;}
+.widget-calendar .start10h_00m { top: 66px;}
+.widget-calendar .start10h_15m { top: 79px;}
+.widget-calendar .start10h_30m { top: 91px;}
+.widget-calendar .start10h_45m { top: 104px;}
+.widget-calendar .start11h_00m { top: 116px;}
+.widget-calendar .start11h_15m { top: 129px;}
+.widget-calendar .start11h_30m { top: 141px;}
+.widget-calendar .start11h_45m { top: 154px;}
+.widget-calendar .start12h_00m { top: 166px;}
+.widget-calendar .start12h_15m { top: 179px;}
+.widget-calendar .start12h_30m { top: 191px;}
+.widget-calendar .start12h_45m { top: 204px;}
+.widget-calendar .start13h_00m { top: 216px;}
+.widget-calendar .start13h_15m { top: 229px;}
+.widget-calendar .start13h_30m { top: 241px;}
+.widget-calendar .start13h_45m { top: 254px;}
+.widget-calendar .start14h_00m { top: 266px;}
+.widget-calendar .start14h_15m { top: 279px;}
+.widget-calendar .start14h_30m { top: 291px;}
+.widget-calendar .start14h_45m { top: 304px;}
+.widget-calendar .start15h_00m { top: 316px;}
+.widget-calendar .start15h_15m { top: 329px;}
+.widget-calendar .start15h_30m { top: 341px;}
+.widget-calendar .start15h_45m { top: 354px;}
+.widget-calendar .start16h_00m { top: 366px;}
+.widget-calendar .start16h_15m { top: 379px;}
+.widget-calendar .start16h_30m { top: 391px;}
+.widget-calendar .start16h_45m { top: 404px;}
+.widget-calendar .start17h_00m { top: 416px;}
+.widget-calendar .start17h_15m { top: 429px;}
+.widget-calendar .start17h_30m { top: 441px;}
+.widget-calendar .start17h_45m { top: 454px;}
+.widget-calendar .start18h_00m { top: 466px;}
+.widget-calendar .start18h_15m { top: 479px;}
+.widget-calendar .start18h_30m { top: 491px;}
+.widget-calendar .start18h_45m { top: 504px;}
+.widget-calendar .start19h_00m { top: 516px;}
+.widget-calendar .start19h_15m { top: 529px;}
+.widget-calendar .start19h_30m { top: 541px;}
+.widget-calendar .start19h_45m { top: 554px;}
+.widget-calendar .start20h_00m { top: 566px;}
+.widget-calendar .duration0h_15m { height: 7px; }
+.widget-calendar .duration0h_30m { height: 19px; }
+.widget-calendar .duration0h_45m { height: 32px; }
+.widget-calendar .duration1h_00m { height: 44px; }
+.widget-calendar .duration1h_15m { height: 57px; }
+.widget-calendar .duration1h_30m { height: 69px; }
+.widget-calendar .duration1h_45m { height: 82px; }
+.widget-calendar .duration2h_00m { height: 94px; }
+.widget-calendar .duration2h_15m { height: 107px; }
+.widget-calendar .duration2h_30m { height: 119px; }
+.widget-calendar .duration2h_45m { height: 132px; }
+.widget-calendar .duration3h_00m { height: 144px; }
+.widget-calendar .duration3h_15m { height: 157px; }
+.widget-calendar .duration3h_30m { height: 169px; }
+.widget-calendar .duration3h_45m { height: 182px; }
+.widget-calendar .duration4h_00m { height: 194px; }
+.widget-calendar .duration4h_15m { height: 207px; }
+.widget-calendar .duration4h_30m { height: 219px; }
+.widget-calendar .duration4h_45m { height: 232px; }
+.widget-calendar .duration5h_00m { height: 244px; }
+.widget-calendar .duration5h_15m { height: 257px; }
+.widget-calendar .duration5h_30m { height: 269px; }
+.widget-calendar .duration5h_45m { height: 282px; }
+.widget-calendar .duration6h_00m { height: 294px; }
+.widget-calendar .duration6h_15m { height: 307px; }
+.widget-calendar .duration6h_30m { height: 319px; }
+.widget-calendar .duration6h_45m { height: 332px; }
+.widget-calendar .duration7h_00m { height: 344px; }
+.widget-calendar .duration7h_15m { height: 357px; }
+.widget-calendar .duration7h_30m { height: 369px; }
+.widget-calendar .duration7h_45m { height: 382px; }
+.widget-calendar .duration8h_00m { height: 394px; }
+.widget-calendar .duration8h_15m { height: 407px; }
+.widget-calendar .duration8h_30m { height: 419px; }
+.widget-calendar .duration8h_45m { height: 432px; }
+.widget-calendar .duration9h_00m { height: 444px; }
+.widget-calendar .duration9h_15m { height: 457px; }
+.widget-calendar .duration9h_30m { height: 469px; }
+.widget-calendar .duration9h_45m { height: 482px; }
+.widget-calendar .duration10h_00m { height: 494px; }
+.widget-calendar .duration10h_15m { height: 507px; }
+.widget-calendar .duration10h_30m { height: 519px; }
+.widget-calendar .duration10h_45m { height: 532px; }
+.widget-calendar .duration11h_00m { height: 544px; }
+.widget-calendar .duration11h_15m { height: 557px; }
+.widget-calendar .duration11h_30m { height: 569px; }
+.widget-calendar .duration11h_45m { height: 582px; }
+.widget-calendar .duration12h_00m { height: 594px; }
+

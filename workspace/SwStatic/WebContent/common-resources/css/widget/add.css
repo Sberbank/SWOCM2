@@ -1,0 +1,135 @@
+/* Widget Calendar */
+.widget-add {
+	margin-bottom: 17px;
+	border-left: 1px solid #d1d1d1;
+	background: #fff;
+	line-height: 1.2;
+}
+
+.widget-add .w-content {	
+	border-left: 1px solid #d1d1d1;	
+}
+
+.widget-add .w-footer {
+	border-left: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	padding: 17px 16px 12px;
+	
+	background: #f0f0f0;
+	font-size: 14px;
+}
+
+.w-add-item {	
+	border-bottom: 1px solid #b9b9b9;
+	padding: 12px 15px 14px;
+	
+	font-size: 11px;
+}
+
+.w-add-header {
+	padding-bottom: 12px;
+	
+	font-size: 13px;
+	font-weight: bold;
+	color: #1d1d1d;
+}
+
+.w-add-line {
+	position: relative;
+	padding-left: 56px;
+	height: 19px;
+}
+
+.w-add-line p {
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+
+.w-add-result-line {
+	float: left;
+	margin-right: 6px;
+	height: 100%;
+}
+
+.w-add-result-number {
+	font-size: 13px;
+	line-height: 19px;
+	color: #222;
+}
+
+.w-add-hover-wrapper {
+	margin-left: -1px;
+	background: #DCDED6;
+}
+
+.widget-add-hover {
+	display: none;
+	position: relative;
+	margin-top: 18px;
+	
+	border: 1px solid #b8bab3;
+	border-top: 1px solid #9fa09a;
+	padding: 17px 23px 7px 23px;
+	background: #fff;
+}
+
+.w-add-hover-wrapper:hover .widget-add-hover {
+	display: block;
+}
+
+.w-add-hover-arrow {
+	position: absolute;
+	top: -13px;
+	left: 50%;
+	margin-left: -13px;
+	height: 14px;
+	width: 26px;
+	background: url(../../img/widget/hover-corner.png) no-repeat;
+}
+
+.w-add-hover-block {
+	display: inline-block;*display: inline; zoom: 1;
+	margin-bottom: 17px;	
+	width: 49%;
+	
+	color: #000;
+	text-align: center;
+	cursor: pointer;
+}
+
+.w-add-hover-icon {
+	border-radius: 5px;
+	margin: 0 auto 13px;
+	width: 74px;
+	height: 74px;
+	background: #d2d2d2;
+}
+
+
+.w-add-hover-block:hover .w-add-hover-icon {	
+	border: 1px solid #686868;
+	width: 72px;
+	height: 72px; 
+	box-shadow: 0 8px 12px #bbb;
+	background-color: #bdbdbd;
+}
+
+.widget-add .w-add-hover-block.w-add-hover-active .w-add-hover-icon {	
+	background: url(../../img/widget/add-hover.png) #d2d2d2 no-repeat center center;
+	box-shadow: none;
+	border: 0;
+	width: 74px;
+	height: 74px;
+}
+
+
+.button-icon-add {
+	border: 0;
+	padding-top: 2px;
+	padding-left: 27px;
+	line-height: 21px;
+	height: 21px;
+	background: url(../../img/icon-add.png) no-repeat left center;
+	font-size: 14px;	
+}

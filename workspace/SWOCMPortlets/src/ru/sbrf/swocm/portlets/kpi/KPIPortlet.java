@@ -35,13 +35,6 @@ public class KPIPortlet extends GenericPortlet {
 		// Set the MIME type for the render response
 		response.setContentType(request.getResponseContentType());
 
-		// Check if portlet session exists
-		KPIPortletSessionBean sessionBean = getSessionBean(request);
-		if( sessionBean==null ) {
-			response.getWriter().println("<b>NO PORTLET SESSION YET</b>");
-			return;
-		}
-
 		// Invoke the JSP to render
 		PortletRequestDispatcher rd = getPortletContext().getRequestDispatcher(getJspFilePath(request, VIEW_JSP));
 		rd.include(request,response);

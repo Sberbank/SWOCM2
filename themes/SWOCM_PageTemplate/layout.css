@@ -1,0 +1,4 @@
+.ibm2Col { float:left;  width:49.2%;margin:0 .8% 2px 0; overflow:hidden; position:relative; }
+.ibm_rtl .ibm2Col { margin:0 0 2px .8%; }
+.ibmRightCol { margin-right:0px; margin-right:0%; }
+.hiddenWidgetsContainer{ display:none; margin-bottom:10px; }

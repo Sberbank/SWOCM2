@@ -1,0 +1,14 @@
+/* Widget Idea */
+.widget-idea {
+	margin-bottom: 22px;
+	padding: 13px 0 0 85px;
+	height: 27px;
+
+	background: url(../../img/widget/idea.png) no-repeat 21px center;
+}
+
+.widget-idea a {
+	border-bottom: 1px solid #4D4D4D;
+	font-size: 20px;
+	color: #4D4D4D;
+}

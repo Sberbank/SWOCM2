@@ -1,0 +1,10 @@
+db.calendar.remove();
+db.calendar.save({name: 'Оперативка', description: '', start: new ISODate('2012-12-14T08:45:00.00+04:00'), end: new ISODate('2012-12-14T09:15:00.00+04:00'), priority: 1});
+db.calendar.save({name: 'Холодные звонки', description: '', start: new ISODate('2012-12-14T09:30:00.00+04:00'), end: new ISODate('2012-12-14T12:00:00.00+04:00'), priority: 2});
+db.calendar.save({name: 'Встреча с ОДО Лютик. Подписание договора и прочее', description: '', start: new ISODate('2012-12-14T12:00:00.00+04:00'), end: new ISODate('2012-12-14T13:00:00.00+04:00'), priority: 3});
+db.calendar.save({name: 'Обед', description: '', start: new ISODate('2012-12-14T13:00:00.00+04:00'), end: new ISODate('2012-12-14T14:00:00.00+04:00'), priority: 0});
+db.calendar.save({name: 'Встреча с ИП Фроловым В.Н.', description: '', start: new ISODate('2012-14-14T14:00:00.00+04:00'), end: new ISODate('2012-12-14T16:00:00.00+04:00'), priority: 4});
+db.calendar.save({name: 'Холодные звонки 15шт', description: '', start: new ISODate('2012-14-14T15:00:00.00+04:00'), end: new ISODate('2012-12-14T16:30:00.00+04:00'), priority: 2});
+db.calendar.save({name: 'Подготовить раздаточный материал', description: '', start: new ISODate('2012-14-14T16:30:00.00+04:00'), end: new ISODate('2012-12-14T17:15:00.00+04:00'), priority: 3});
+db.calendar.save({name: 'Контроль платежей', description: '', start: new ISODate('2012-14-14T17:15:00.00+04:00'), end: new ISODate('2012-12-14T17:55:00.00+04:00'), priority: 3});
+db.calendar.save({name: 'План на завтра', description: '', start: new ISODate('2012-14-14T17:55:00.00+04:00'), end: new ISODate('2012-12-14T18:40:00.00+04:00'), priority: 1});

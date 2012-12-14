@@ -1,4 +1,4 @@
-<%@ page session="false" buffer="none" %>
+<%@ page session="false" buffer="none" pageEncoding="UTF-8" %>
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
@@ -15,6 +15,84 @@
         <c:set var="endLevel" value="${param.startLevel + (param.levelsDisplayed-1)}"/>
     </c:otherwise>
 </c:choose>
+                    <c:forEach var="node" items="${wp.navigationModel.children[wp.selectionModel.selectionPath[0]]}" varStatus="status" step="1">
+                        <c:set var="nodeID" value="${node.objectID.uniqueName}"/>
+                        <c:if test="${wp.selectionModel[node] != null}">
+                            <c:if test="${nodeID == 'swocm.index'}">
+                                <c:set var="isIndexPage" value="true" />
+                            </c:if>
+                        </c:if>
+                    </c:forEach>
+                    <c:forEach var="node" items="${wp.navigationModel.children[wp.selectionModel.selectionPath[1]]}" varStatus="status" step="1">
+                        <c:set var="nodeID" value="${node.objectID.uniqueName}"/>
+                        <c:if test="${wp.selectionModel[node] != null}">
+                            <c:if test="${nodeID == 'swocm.calls'}">
+                                <c:set var="isCallPage" value="true" />
+                            </c:if>
+                        </c:if>
+                    </c:forEach>
+
+
+					<div class="l-nav">
+						<div class="nav-item nav-item-lenta <c:if test="${isIndexPage}">nav-active</c:if>"><p class="nav-text">Лента</p></div>
+
+                        <c:if test="${isCallPage}">
+                            <div class="nav-item nav-item-call nav-active">
+                                <p class="nav-text">4:21</p>
+                            </div>
+                        </c:if>
+
+						<div class="b-nav-process">
+							<div class="nav-item nav-item-study">
+								<p class="nav-text">Учеба</p>
+								<div class="b-nav-indicator">
+									<div class="nav-indicator-bg">&nbsp;</div>
+									<div class="nav-indicator-current" style="width: 37%;">
+										<p class="nav-indicator-text">37%</p>
+									</div>
+								</div>
+							</div>
+							<div class="nav-item nav-item-clients">
+								<p class="nav-text">Поиск клиентов</p>
+								<div class="b-nav-indicator b-nav-indicator-number">
+									<div class="nav-indicator-bg">
+										<p class="nav-indicator-all">50</p>
+									</div>
+									<div class="nav-indicator-current" style="width: 50%;">
+										<p class="nav-indicator-text">22</p>
+									</div>
+								</div>
+							</div>
+							<div class="nav-item nav-item-sell">
+								<p class="nav-text">Продажи</p>
+								<div class="b-nav-indicator b-nav-indicator-number">
+									<div class="nav-indicator-bg">
+										<p class="nav-indicator-all">12</p>
+									</div>
+									<div class="nav-indicator-current" style="width: 25%;">
+										<p class="nav-indicator-text nav-indicator-text-small">4</p>
+									</div>
+								</div>
+							</div>
+							<div class="nav-item nav-item-monitoring">
+								<p class="nav-text">Мониторинг</p>
+								<div class="b-nav-monitoring">
+									<div class="nav-monitoring-item nav-monitoring-green nav-monitoring-first" style="width: 49%;"><p>47</p></div>
+									<div class="nav-monitoring-item nav-monitoring-yellow" style="width: 36%;"><p>12</p></div>
+									<div class="nav-monitoring-item nav-monitoring-red  nav-monitoring-last" style="width: 14%;"><p>3</p></div>
+								</div>
+							</div>
+						</div>						
+						<div class="nav-item nav-item-organisation"><p class="nav-text">Организации</p></div>
+						<div class="nav-item nav-item-product"><p class="nav-text">Продукты</p></div>
+						<div class="nav-item nav-item-calendar"><p class="nav-text">Календарь</p></div>
+						<div class="nav-item nav-item-my-client"><p class="nav-text">Мои клиенты</p></div>
+						<div class="nav-item nav-item-documents"><p class="nav-text">Документы</p></div>
+						<div class="nav-item nav-item-reposts"><p class="nav-text">Отчеты</p></div>
+						<div class="nav-item nav-item-add"><p class="nav-text">&nbsp;</p></div>
+					</div>
+
+<%--
 <c:if test="${param.startLevel == 1}">
 			<div class="left">
 				<div class="lenta active"></div>
@@ -25,7 +103,6 @@
 				<div class="left-proposal"></div>
 				<div class="left-add reset"></div>
 			</div>
-<%--
     <div class="left">
         <% 
             java.util.Map<String, String> class2id = new java.util.HashMap<String, String>();
@@ -58,7 +135,6 @@
             </c:if>
         </c:forEach>
     </div>
---%>
 </c:if>
 <c:if test="${param.startLevel != 1}">
     <c:forEach var="node" items="${wp.selectionModel.selectionPath}" varStatus="status" begin="${param.startLevel}" end="${endLevel}" step="1">
@@ -79,3 +155,4 @@
         </c:if>
     </c:forEach>
 </c:if>
+--%>

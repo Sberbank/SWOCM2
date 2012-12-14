@@ -31,33 +31,40 @@
 										<div class="w-today-right"></div>
 									</div>
 									<div class="w-tasks-block">
-										<div class="w-tack w-tack-planing w-tack-small" style="top: 6px;">
-											<p>Оперативка</p>
+										<%  List<Meeting> meetings = (List<Meeting>)request.getAttribute("meetings"); 
+										   	Meeting previous = null;
+											int intersection = 0;
+											for (int i=0; i<meetings.size(); i++) { 
+												Meeting meeting = meetings.get(i);
+
+												if (previous != null) {
+													Date end = previous.getEnd();
+													Date start = meeting.getStart();
+													if ((end.getHours() > start.getHours()) || 
+														(end.getHours() == start.getHours() &&
+															end.getMinutes() > start.getMinutes())) {
+														intersection = Math.min(3, intersection+1);
+													} else {
+														intersection = 0;
+													}
+												}
+										%>
+										<div class="
+											w-tack
+											priority<%=meeting.getPriority()%>
+											start<%=meeting.getStartHour()%>h_<%=meeting.getStartMinutes()%>m
+											duration<%=meeting.getDurationHour()%>h_<%=meeting.getDurationMinutes()%>m
+											w-tack-small
+											<% if (intersection > 0) { %>
+											intersection<%=intersection%>
+											<% } %>"
+											>
+											<p><%=meeting.getName()%></p>
 										</div>
-										<div class="w-tack w-tack-cold" style="top: 28px; height: 123px;">
-											<p>Холодные звонки 10 шт</p>
-										</div>
-										<div class="w-tack w-tack-important" style="top: 168px; height: 33px;">
-											<p>Встреча с ОДО Лютик. Подписание договора и проч</p>
-										</div>
-										<div class="w-tack w-tack-etc" style="top: 218px; height: 33px;">
-											<p>Обед</p>
-										</div>
-										<div class="w-tack w-tack-red w-tack-not-approved" style="top: 268px; height: 83px;">
-											<p>Встреча с ИП  Фроловым В.Н.</p>
-										</div>
-										<div class="w-tack w-tack-cold" style="top: 317px; height: 60px; left: 60px; right: 8px;">
-											<p>Холодные звонки 15 шт</p>
-										</div>
-										<div class="w-tack w-tack-warm w-tack-overflow" style="top: 393px;">
-											<p>Подготовить раздаточный материал</p>
-										</div>
-										<div class="w-tack w-tack-warm" style="top:  428px;">
-											<p>Контроль платежей</p>
-										</div>
-										<div class="w-tack w-tack-planing" style="top:  463px;">
-											<p>План на завтра</p>
-										</div>
+										<%
+												previous = meeting; 
+											} 
+										%>
 									</div>
 								</div>
 							</div>
