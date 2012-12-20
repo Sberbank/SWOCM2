@@ -16,28 +16,12 @@ import com.mongodb.Mongo;
  * A sample portlet based on GenericPortlet
  */
 public class CalendarPortlet extends GenericPortlet {
-    public static final String HOST = "localhost";
-    public static final int PORT = 27017;
-    public static final String DB_NAME = "swocm_db";
-
-    private Mongo mongo = null;
-    private DB db = null;
-
 	public static final String JSP_FOLDER    = "/_Calendar/jsp/";    // JSP folder name
 
 	public static final String VIEW_JSP      = "CalendarPortletView";         // JSP file name to be rendered on the view mode
 
-	/**
-	 * @see javax.portlet.Portlet#init()
-	 */
 	public void init() throws PortletException{
 		super.init();
-        try {
-            mongo = new Mongo(HOST, PORT);
-            db = mongo.getDB(DB_NAME);
-        } catch (UnknownHostException e) {
-            throw new RuntimeException(e);
-        }
 	}
 
 	/**
@@ -48,36 +32,6 @@ public class CalendarPortlet extends GenericPortlet {
 	public void doView(RenderRequest request, RenderResponse response) throws PortletException, IOException {
 		// Set the MIME type for the render response
 		response.setContentType(request.getResponseContentType());
-
-		try {
-			Date today = new SimpleDateFormat("dd.MM.yyyy HH:mm").parse("13.12.2012 00:00");
-
-	        DBCursor cursor = db.getCollection("calendar").find();
-	        List<Meeting> meetings = new ArrayList<Meeting>();
-	        while(cursor.hasNext()) {
-	        	DBObject obj = cursor.next();
-	        	Date start = (Date) obj.get("start");
-	        	if (start.after(today)) {
-	        		meetings.add(
-        				new Meeting(
-    						(String)obj.get("name"),
-    						(String)obj.get("description"),
-    						(Date)obj.get("start"),
-    						(Date)obj.get("end"),
-    						((Double)obj.get("priority")).intValue()
-        				));
-	        	}
-	        }
-
-	        System.out.println("meetings = " + meetings);
-	        request.setAttribute("meetings", meetings);
-	    } catch(Exception e){
-	    	e.printStackTrace();
-	    } finally {
-	        if (db != null)
-	            db.requestDone();
-	    }
-
 
 		// Invoke the JSP to render
 		PortletRequestDispatcher rd = getPortletContext().getRequestDispatcher(getJspFilePath(request, VIEW_JSP));

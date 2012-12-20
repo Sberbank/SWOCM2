@@ -4,11 +4,11 @@
 <div class="l-content-call"> 
 						<!-- Start Call Content -->
 						<div class="content-header">
-							<a href="/wps/portal/swocm" class="b-link link-icon b-link-back">Назад к списку</a>
+							<a href="/wps/myportal/swocm" class="b-link link-icon b-link-back">Назад к списку</a>
 						</div>
 						<div class="b-call-info">
 							<div class="b-call-cancel">
-								<a href="/wps/portal/swocm" class="link-icon"></a>
+								<a href="/wps/myportal/swocm" class="link-icon"></a>
 								<p class="call-time">01:01</p>								
 							</div>
 							<a href="#" class="b-link b-link-dashed">+7 (915) 765-43-21</a>

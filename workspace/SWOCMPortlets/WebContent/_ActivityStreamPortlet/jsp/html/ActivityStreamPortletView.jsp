@@ -17,9 +17,67 @@
 								<li class="lenta-nav-item"><p>Документы</p><span>&nbsp;</span></li>	
 							</ul>
 						</div>
+						<script type="text/javascript">
+							$(document).ready(function(){
+								$("#acceptMeeting").click(function (){
+									var start = new Date();
+									var end = new Date();
+									
+									start.setHours(15); start.setMinutes(0);
+									end.setHours(16); end.setMinutes(30);
+
+			                		var el = $('#calendarTemplate')
+	                				.tmpl({
+			                			data: {
+			                				name: $(this).attr("meetingName"),
+			                				description: '',
+			                				start: start.toString(),
+			                				end: end.toString(),
+			                				priority: 2, accepted: true
+			                			},
+			                			startHour: f.startHour,
+			                			startMinutes: f.startMinutes,
+			                			durationHour: f.durationHour,
+			                			durationMinutes: f.durationMinutes,
+			                			intersection: f.intersection
+			                		});
+			                		
+			                		el.css('opacity', 0);
+			                		el.appendTo("#meetingsList");
+			                		el.animate({opacity: 1}, 500, function () {
+						            	$("#meetingTask").animate({
+						            		height: 0
+						            	}, 750, function(){
+						            		$(this).remove();
+						            	});
+			                		});
+								
+									/*
+									var name = $(this).attr('meetingName');
+									$.ajax({
+							        	type: "POST",
+							            url: '${renderRequest.contextPath}/AcceptMeetingServlet',
+							            dataType: "json",
+							            data: { cn : 'calendar', name: name, startH: 15, startM: 0, duration: 90 },
+							            success: function(data) {
+							            	$("#<portlet:namespace/>meetingTask").animate({
+							            		height: 0
+							            	}, 750, function(){
+							            		$(this).remove();
+								            	loadTasks(d);
+							            	});
+							            },
+							            error: function() {
+							            	alert('error');
+							            }
+							        });
+									*/
+								});
+							});
+						</script>
 						<div class="wrapper-lenta-tasks">
 							<!-- Start Lenta Task-->
-							<div class="b-lenta-task lenta-task-important">
+							<div class="b-lenta-task lenta-task-important" id="meetingTask">
 								<div class="lenta-task-header">
 									<p>Никитенков А.С.</p>
 									<h4>Встреча с ИП Фроловым В.Н.</h4>
@@ -30,7 +88,7 @@
 									</p>
 								</div>
 								<div class="lenta-task-footer">
-									<div class="b-button b-button-select">
+									<div class="b-button b-button-select" id="acceptMeeting" meetingName="Встреча с ИП Фроловым В.Н.">
 										Принять
 										<span class="select-list-icon">&nbsp;</span>
 									</div>
@@ -208,7 +266,7 @@
 										<p class="lenta-call-text">
 											Задолженность за август
 										</p>
-										<a href="/wps/portal/swocm/calls" class="lenta-call-icon"></a>
+										<a href="/wps/myportal/swocm/calls" class="lenta-call-icon"></a>
 									</div>
 									<div class="lenta-call-list">									
 										<p class="lenta-call-header">
@@ -217,7 +275,7 @@
 										<p class="lenta-call-text">
 											Погашение задложенности
 										</p>
-										<a href="/wps/portal/swocm/calls" class="lenta-call-icon"></a>
+										<a href="/wps/myportal/swocm/calls" class="lenta-call-icon"></a>
 									</div>
 									<div class="lenta-call-list">									
 										<p class="lenta-call-header">
@@ -226,7 +284,7 @@
 										<p class="lenta-call-text">
 											Выслать КП
 										</p>
-										<a href="/wps/portal/swocm/calls" class="lenta-call-icon"></a>
+										<a href="/wps/myportal/swocm/calls" class="lenta-call-icon"></a>
 									</div>
 								</div>
 								<div class="lenta-task-footer">
@@ -259,7 +317,7 @@
 										<p class="lenta-call-text">
 											Задолженность за август
 										</p>
-										<a href="/wps/portal/swocm/calls" class="lenta-call-icon"></a>
+										<a href="/wps/myportal/swocm/calls" class="lenta-call-icon"></a>
 									</div>
 									<div class="lenta-call-list">									
 										<p class="lenta-call-header">
@@ -268,7 +326,7 @@
 										<p class="lenta-call-text">
 											Погашение задложенности
 										</p>
-										<a href="/wps/portal/swocm/calls" class="lenta-call-icon"></a>
+										<a href="/wps/myportal/swocm/calls" class="lenta-call-icon"></a>
 									</div>
 									<div class="lenta-call-list">									
 										<p class="lenta-call-header">
@@ -277,7 +335,7 @@
 										<p class="lenta-call-text">
 											Выслать КП
 										</p>
-										<a href="/wps/portal/swocm/calls" class="lenta-call-icon"></a>
+										<a href="/wps/myportal/swocm/calls" class="lenta-call-icon"></a>
 									</div>
 								</div>
 								<div class="lenta-task-footer">
