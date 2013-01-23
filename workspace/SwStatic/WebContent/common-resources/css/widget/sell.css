@@ -1,0 +1,272 @@
+/* Sell Widget */
+.widget-sell {
+	min-width: 235px;
+	margin-bottom: 13px;
+	color: #000;
+}
+
+.w-sell-header {
+	position: relative;
+	border-radius: 6px 6px 0 0;
+	border: 2px solid #9e9a89;
+	border-bottom: 0;
+	padding: 23px 0 7px 49px;
+		
+	background: #fcf8db;
+	color: #000;
+	font-size: 14px;
+}
+
+.w-sell-header i {
+	display: block;
+	margin: 3px 0 0 85px;
+	color: #808080;
+	font-size: 12px;
+}
+
+.w-sell-calculator-icon {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	width: 19px;
+	height: 24px;
+	background: url(../../img/widget/calculator-icon.png) no-repeat;
+	cursor: pointer;
+}
+
+.w-sell-separator{
+	border-left: 2px solid #9e9a89;
+	border-right: 2px solid #9e9a89;
+}
+
+.w-sell-separator-img {
+	width: 100%;
+}
+
+.widget-sell .w-content {
+	border-left: 2px solid #807d6f;
+	border-right: 2px solid #807d6f;
+	background: #fff;
+}
+
+.w-sell-header-link {
+	padding: 18px 15px 0 27px;
+}
+
+.w-sell-header-link a {
+	border-color: #0071bc;
+	color: #0071bc;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.w-sell-product-header {
+	position: relative;
+}
+
+a.link-icon-arrow {
+	padding-left: 13px;
+	margin: 0 0 3px -13px;
+}
+
+.w-sell-product-show a.link-icon-arrow {
+	background: url(../../img/widget/sell-link-arrow.png) no-repeat left center;
+}
+
+a.link-icon-arrow span {
+	border-color: #000;
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.w-sell-product-number {
+	position: absolute;
+	top: 1px;
+	right: 0;
+	font-size: 15px;
+}
+
+.w-sell-product-info {
+	overflow: hidden;
+	padding: 5px 0 35px;
+}
+
+.w-sell-product {
+	padding: 20px 15px 10px 27px;
+}
+
+.w-sell-product-cell {
+	float: left;
+	margin-right: 1px;
+	height: 5px;
+	width: 9.5%;
+	background: #b3b3b3;
+}
+
+.w-sell-product-done {
+	background: #22b573;
+}
+
+.w-sell-product-week {
+	position: absolute;
+	top: 30px;
+}
+
+.w-sell-product-week p {
+	padding-top: 2px;
+	min-width: 88px;
+	
+	font-style: italic;
+	font-size: 11px;
+	color: #808080;
+	text-align: center;
+}
+
+.w-sell-product-week img {
+	width: 100%;
+}
+
+.w-sell-product-show {
+	background: #e9f2eb;
+}
+
+.w-sell-product-inner {
+	display: none;
+}
+
+.w-sell-product-show .w-sell-product-inner {
+	display: block;
+}
+
+.w-sell-product-inner p {
+	margin: 22px 0 14px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.w-sell-product-h2 {
+	margin: 15px 0 3px;
+	color: #666;
+	font-size: 15px;
+}
+
+.w-sell-product-stat-line {
+	overflow: hidden;
+}
+
+.w-sell-product-stat-line i {
+	float: left;
+	width: 90px;
+	padding-top: 7px;
+	color: #808080;
+}
+
+.w-sell-product-stat-line span {
+	float: left;
+	margin-left: 6px;
+	width: 30px;
+	padding-top: 5px;
+}
+
+.w-sell-product-stat-cell {
+	height: 14px;
+}
+
+.w-sell-recommendation {
+	margin-top: 11px;	
+}
+
+.w-sell-recommendation p {
+	position: relative;
+	margin: 0 0 11px 16px;	
+	font-size: 12px;
+}
+
+.w-sell-recommendation span {
+	position: absolute;
+	top: 0;
+	left: -15px;
+}
+
+.w-sell-recommendation a {
+	border-color: #0071bc;
+	color: #0071bc;
+}
+
+.widget-sell .w-footer {
+	border-radius: 0 0 6px 6px;
+	border: 2px solid #807d6f;
+	border-top: 0;
+	padding: 0 18px 23px 24px;
+	background: #fff;
+}
+
+.w-sell-footer {
+	border-top: 1px solid #b3b3b3;
+	padding-top: 17px;	
+}
+
+.w-sell-footer p {
+	font-weight: bold;
+	font-size: 19px;	
+}
+
+.w-sell-stars {
+	position: relative;
+	margin: 18px 0 16px 0;
+	padding-left: 110px;
+	
+	font-size: 41px;
+	color: #4d4d4d;
+	
+}
+
+.w-sell-stars-number {
+	position: absolute;
+	top: 9px;
+	left: 0;
+	width: 93px;
+	height: 22px;
+	background: url(../../img/widget/sell-stars.png) no-repeat;
+}
+
+.w-sell-stars-number.w-sell-stars-number-1 {
+	background-position: 0 -22px;
+}
+
+.w-sell-stars-number.w-sell-stars-number-2 {
+	background-position: 0 -44px;
+}
+
+.w-sell-stars-number.w-sell-stars-number-3 {
+	background-position: 0 -66px;
+}
+
+.w-sell-stars-number.w-sell-stars-number-4 {
+	background-position: 0 -88px;
+}
+
+.w-sell-stars-number.w-sell-stars-number-5 {
+	background-position: 0 -110px;
+}
+
+.link-icon-sell-arrow {
+	margin-top: 11px;
+	width: 19px;
+	height: 10px;
+	background: url(../../img/widget/sell-arrow.png) no-repeat;
+}
+
+.w-sell-footer  .b-link,
+.w-sell-footer  .b-link span {
+	color: #0071bc;
+	border-color: #0071bc;
+	font-size: 16px;
+}
+
+.link-icon-sell-separator {
+	margin-left: -5px;
+	padding: 13px 0 3px 22px;
+	background: url(../../img/widget/sell-separator.png) no-repeat left center;
+}

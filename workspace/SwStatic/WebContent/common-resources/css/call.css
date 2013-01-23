@@ -1,0 +1,339 @@
+.l-call {
+	margin-top: 4px;
+	
+	font-size: 14px;
+	line-height: 1.3;
+	color: #000;
+}
+
+.l-call .content-header {
+	margin-bottom: 7px;
+}
+
+.b-call-info {
+	position: relative;
+	padding: 27px 31px;
+	background-color: #627A67;
+	color: #fff;
+}
+
+.call-info-text {
+	margin-top: 18px;
+}
+
+.b-call-info .b-link {
+	border-color: #9ae300;
+	color: #9ae300;	
+}
+
+.b-call-info .b-link-dashed {
+	border-color: #fff;
+	color: #fff;
+	font-size: 24px;
+}
+
+.b-call-cancel {
+	position: absolute;
+	top: 19px;
+	right: 15px;
+	font-size: 21px;
+}
+
+.b-call-cancel .link-icon {
+	float: right;
+	width: 57px;
+	height: 36px;
+	background: url(../img/call-cancel.png) no-repeat;
+}
+
+.call-time {
+	float: right;
+	padding: 7px 6px 0 0;
+}
+
+.b-link-header {
+	font-size: 19px;
+}
+
+.link-icon-plus {
+	width: 21px;
+	height: 21px;
+	background: url(../img/call-info-plus.png) no-repeat;
+}
+
+.call-info-footer {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.call-info-column {
+	float: left;
+	width: 49%;
+}
+
+.call-info-column strong {
+	display: block;
+}
+
+.call-info-column .b-link.link-icon-product {	
+	margin-top: 3px;
+	padding-left: 35px;
+	
+	height: 32px;
+	background: url(../img/call-info-product.png) no-repeat left center;
+}
+
+a.link-icon-product span {	
+	border-bottom: 1px solid #d6d132;		
+	line-height: 32px;
+	color: #fcee21;
+}
+
+.b-call-wrapper {
+	position: relative;
+	border: 1px solid #b3b3b3;
+	border-top: 0;
+	padding: 33px 26px 33px 44px;
+	background: #fff;
+}
+
+.call-dialog-bg {
+	position: absolute;
+	top: -13px;
+	left: 33px;
+	width: 13px;
+	height: 20px;
+	background: url(../img/call-dialog-bg.png) no-repeat;
+}
+
+.b-call-dialog p {
+	padding: 0 0 13px 33px;
+	width: 70%;
+	line-height: 22px;
+}
+
+.b-call-dialog-link {
+	margin-bottom: 9px;
+	color: #a0a0a0;
+}
+
+.link-icon-cancel {
+	margin-left: 10px;
+	padding-left: 11px;
+	background: url(../img/call-dialog-cancel.png) no-repeat left center;
+}
+
+.link-icon-cancel span {
+	border-bottom: 1px solid #a0a0a0;
+	color: #a0a0a0;
+}
+
+.b-call-separator {
+	position: relative;
+	border-bottom: 1px solid #999;
+	padding: 0 0 9px 4px;
+	
+	color: #bababa;
+	font-style: italic;
+}
+
+.b-call-separator span {
+	position: absolute;
+	top: 7px;
+	left: -18px;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #444;
+	width: 14px;
+}
+
+.call-comments {
+	position: relative;
+	overflow: hidden;
+	padding: 20px 0 0 37px;
+	max-height: 120px;
+	color: #BABABA;
+}
+
+.call-comments-bg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 20%;
+	height: 30px;
+	background: url(../img/task-full-text-bg.png) repeat-x left bottom;
+	z-index: 10;
+}
+
+.call-comment-column {
+	float: left;
+	margin-left: 7%;
+	width: 33%;	
+}
+
+.call-comment-column:first-child {
+	margin-left: 0;
+}
+
+.call-comment-links {
+	width: 18%;
+}
+
+.call-comment-column-double {
+	width: 73%;
+}
+
+.call-comment-answer {
+	padding: 0 0 11px 18px;
+}
+
+.call-comment-answer-no strong {
+	color: #ff9000;	
+}
+
+.call-comment-answer-yes strong {
+	color: #39ab20;
+}
+
+.call-comment-column i {
+	display: block;
+}
+
+.call-comment-links .b-link,
+.call-comment-links .b-link-double span {
+	margin-bottom: 9px;
+	border-color: #7fceef;
+	color: #009ee0;	
+}
+
+.b-call-dialog-add {
+	padding-top: 13px;
+}
+
+.b-call-send {
+	padding-left: 33px;
+	color: #b3b3b3;
+}
+
+.b-call-send p {
+	overflow: hidden;
+	padding-top: 8px;
+}
+
+.b-call-send label {
+	float: left;
+	padding-top: 7px;
+	width: 50px;
+	font-weight: bold;
+}
+
+.b-call-send input {
+	float: left;
+	border-radius: 4px;
+	border: 1px solid #B3B3B3;
+	padding: 5px 7px;	
+	width: 50%;
+	color: #b3b3b3;
+}
+
+.b-call-send-active  input,
+.b-call-send-active  label {
+	border-color: #3fa9f5;
+	color: #000;
+}
+
+.b-call-send-link {
+	overflow: hidden;
+	margin: 23px 0;
+}
+
+.b-call-send-link .b-button,
+.b-call-send-link .b-link{
+	float: right;
+	margin-right: 34px;
+}
+
+.b-call-send-link .b-link{
+	margin-top: 7px;
+	border-color: #999;
+	color: #999;
+}
+
+.b-call-send-link .b-button {
+	padding-top: 5px;
+	padding-left: 37px;
+	height: 28px;
+	line-height: 25px;
+	background: #e6e6e6;
+	font-weight: bold;
+}
+
+.b-call-send-link .b-button i {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	height: 26px;
+	width: 28px;
+	background: url(../img/button-accepted.png) no-repeat left center;
+}
+
+.b-call-my-time {
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.call-time-header, 
+.call-time-line {
+	overflow: hidden;
+	padding-left: 33px;
+}
+
+.call-time-header p {
+	float: left;
+	width: 19%;
+	padding-left: 3px;
+	
+	font-size: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #808080;
+}
+
+.call-time-ceil {
+	float: left;
+	border: 1px solid #ccc;
+	border-left: 0;
+	border-top: 0;
+	width: 19%;
+	padding: 2px 0 9px 3px;
+	min-height: 7px;
+	
+	font-size: 9px;
+	color: #000;
+	
+}
+
+.call-time-ceil:first-child {
+	border-left: 1px solid #a0a0a0;
+}
+
+.call-time-line-first .call-time-ceil {
+	border-top: 1px solid #a0a0a0;
+}
+
+.call-time-ceil-free:hover,
+.call-time-active {	
+	border-bottom: 1px solid #88c457;
+	background: #9dda6c;
+	cursor: pointer;
+}
+
+.call-time-ceil-free {
+	border-bottom: 1px solid #e8e069;
+	background: #fdf57e;
+}
+
+.call-time-line .call-time-inactive {
+	background: #f1f1f1;
+	border-bottom: 1px solid #ccc;
+	cursor: default;
+}

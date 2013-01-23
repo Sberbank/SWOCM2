@@ -1,39 +1,56 @@
 /* Lenta Block */
-.lenta-nav  {
+.l-lenta .content-header  h4 {
+	margin-top: 0;
+}
+
+.l-lenta.ui-tabs .ui-tabs-nav  {
+	overflow: hidden;
 	margin: 9px 0;
 }
 
-.lenta-nav-item {
+.l-lenta.ui-tabs .ui-tabs-nav li {
+	border-radius: 0;
+	border: 0;
 	position: relative;
-	display: inline-block; *display: inline; zoom: 1;
-	margin-right: -6px;
+	margin: 0 -6px 0 0;
 	height: 25px;
 	padding: 0 13px;
 	
 	font-size: 14px;
 	color: #6e735f;
+	background: none;
 	cursor: pointer;
 }
 
-.lenta-nav-item p{
-	padding: 6px 4px 5px;
-}
-
-.lenta-nav-item:hover {
-	color: #fbb13b;
-}
-
-.lenta-nav-item-active {
+.l-lenta.ui-tabs .ui-tabs-nav li.ui-tabs-active {	
 	background: url(../img/lenta-nav-bg.png) no-repeat;
 	cursor: default;
 }
 
-.lenta-nav-item-active p{
+.l-lenta.ui-tabs .ui-tabs-nav  p{
+	padding: 3px 4px 5px;
+}
+
+.l-lenta.ui-tabs .ui-tabs-nav a {
+	color: #6E735F!important;
+	padding: 0;
+}
+
+.l-lenta.ui-tabs .ui-tabs-nav a:hover {
+	color: #fbb13b!important;
+}
+
+.l-lenta.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	color: #fff!important;
+}
+
+.l-lenta.ui-tabs .ui-tabs-nav li.ui-tabs-active p{
+	overflow: hidden;
 	color: #fff;
 	background: url(../img/lenta-nav-bg.png) 0 -25px;	
 }
 
-.lenta-nav-item-active span{
+.l-lenta.ui-tabs .ui-tabs-nav li.ui-tabs-active span{
 	display: block;
 	position: absolute;
 	top: 0;
@@ -88,6 +105,17 @@
 	background: url(../img/name-arrow.png) no-repeat left center;
 }
 
+.lenta-task-header h3 {
+	margin: 12px 10%;
+	border: 3px solid #009245;
+	padding: 11px 0 9px;
+	width: 80%;	
+	
+	font-size: 15px;
+	color: #009245;
+	text-align: center; 
+}
+
 .lenta-task-header h4 {
 	padding-top: 3px;
 	padding-bottom: 6px;
@@ -95,11 +123,16 @@
 	font-size: 16px;
 }
 
+.lenta-task-header h6 {
+	font-size: 12px;
+	color: #999;
+}
+
 .lenta-task-content {
 	position: relative;
 	overflow: hidden;
 	padding: 6px 14px 0 29px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .lenta-task-content p {
@@ -107,7 +140,6 @@
 	padding-right: 17px;
 	font-size: 13px;
 }
-
 
 .lenta-task-content i {
 	display: block;
@@ -127,7 +159,7 @@
 
 .lenta-task-footer {
 	overflow: hidden;
-	padding: 0 14px 10px 29px;
+	padding: 0 14px 14px 29px;
 }
 
 .lenta-task-footer .b-button {
@@ -378,6 +410,102 @@
 	
 	background: url(../img/lenta-call-active.png)  no-repeat;
 	cursor: pointer;
+}
+
+/* Lenta Offer */
+a.link-offer-header {	
+	border-color: #000;	
+	
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+
+.lenta-offer-text {
+	position: relative;
+	padding: 8px 100px 17px 0;
+	font-size: 14px;
+} 
+
+.b-lenta-offer-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+a.ink-offer-add {
+	border-color: #29ABE2;
+	color: #29ABE2;
+}
+
+.b-lenta-offer-button .b-icon {
+	float: right;
+	margin-left: 10px;
+}
+
+.icon-letter {	
+	width: 37px;
+	height: 37px;
+	background: url(../img/icon-letter.png) no-repeat;
+}
+
+.icon-call {
+	width: 37px;
+	height: 37px;
+	background: url(../img/icon-call.png) no-repeat;
+}
+
+.icon-call:hover {
+	background-position: 0 -37px;
+}
+
+.lenta-offer-documents h5 {
+	margin-top: 15px;
+	font-size: 14px;
+	color: #F7931E;
+}
+
+.lenta-offer-list {
+	margin: 7px 0 0 22px;
+}
+
+.lenta-offer-list li {
+	margin-bottom: 3px;
+	font-size: 14px;
+}
+
+.lenta-offer-list a {
+	border-color: #000;	
+	color: #000;
+}
+
+/* Lenta Meeting */
+.lenta-task-meeting {
+	position: relative;
+	border-left: 4px solid #29ABE2;
+	padding-left: 60px;
+	width: 69%;
+}
+
+.lenta-meeting-time {
+	position: absolute;
+	top: 27px;
+	left: 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.lenta-task-meeting .lenta-task-header p {
+	padding: 0;
+	font-size: 9px;
+	font-weight: bold;
+	color: #959595;
+	text-transform: uppercase;
+	background: none;
+}
+
+.lenta-task-meeting .lenta-task-content i {
+	padding-top: 4px;
 }
 
 /* Lenta Footer */

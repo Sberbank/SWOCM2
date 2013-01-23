@@ -1,0 +1,35 @@
+/* Organization page */
+.organization-address {
+	position: absolute;
+	top: 2px;
+	right: 0;
+	
+	font-size: 14px;
+	color: #6D6E70;
+}
+
+.organization-address a {
+	border-color: #6D6E70;
+	color: #6D6E70;
+}
+
+.b-organization {
+	padding: 19px 5px 27px;
+}
+
+.b-organization-button {
+	margin-left: 47px;
+}
+
+.b-organization-button .b-button {
+	margin-right: 19px;
+}
+
+.b-organization-tabs {
+	margin: 19px 0 16px;
+	background: #e6e6e6;
+}
+
+.l-organization .ui-tabs {
+	margin: 24px 0 36px;
+}

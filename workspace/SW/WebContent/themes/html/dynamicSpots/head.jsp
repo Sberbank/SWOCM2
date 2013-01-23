@@ -39,18 +39,43 @@
 	}
 }
 %>
+		<script type="text/javascript" src="/SwStatic/common-resources/lib/jquery.js"></script>
+		<script type="text/javascript" src="/SwStatic/common-resources/lib/jquery-ui-1.9.2.custom.min.js"></script>
+		<script type="text/javascript" src="/SwStatic/common-resources/lib/jquery.tmpl.js"></script>
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/lib/jquery-ui-1.9.2.custom.min.css" />
 
+		<script type="text/javascript" src="/SwStatic/common-resources/lib/chosen/chosen.jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/lib/chosen/chosen.css" />
+
+		<script type="text/javascript" src="/SwStatic/common-resources/js/ui-custom-elements.js"></script>
+		<script type="text/javascript" src="/SwStatic/common-resources/js/popup.js"></script>
+		<script type="text/javascript" src="/SwStatic/common-resources/js/main.js"></script>
+
+		<script type="text/javascript" src="/SwStatic/common-resources/js/widget/calendar.js"></script>
+		<script type="text/javascript" src="/SwStatic/common-resources/js/widget/calculator.js"></script>		
+
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/ui-theme.css" />
+
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/popup.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/monitoring.css" />
 		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/call-page.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/sell.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/study.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/organization.css" />
 		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/lenta.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/call.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/find-clients.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/call-page.css" />
+
 		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/calendar.css" />
-		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/calendar_ext.css" />
-		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/kri.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/calculator.css" />
 		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/add.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/progress.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/sign-up.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/kri.css" />
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/calendar_ext.css" />
 		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/idea.css" />
 		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/rating.css" />
-		<script type="text/javascript" src="/SwStatic/common-resources/js/jquery.js"></script>
-		<script type="text/javascript" src="/SwStatic/common-resources/js/jquery.tmpl.js"></script>
-		<script type="text/javascript" src="/SwStatic/common-resources/js/main.js"></script>
-		<script type="text/javascript" src="/SwStatic/common-resources/js/widget/calendar.js"></script>
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/widget/sell.css" />
 
+		<link rel="stylesheet" type="text/css" href="/SwStatic/common-resources/css/custom.css" />

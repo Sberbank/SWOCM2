@@ -10,8 +10,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background: transparent;
 }
 
+
 body {line-height: 1;}
-ol, ul {list-style: none;}
+ul {list-style: none;}
 textarea {resize: none;}
 
 a {text-decoration: none;}
@@ -38,6 +39,10 @@ a.b-link-dashed {
 	border-style: dashed;	
 }
 
+a.b-link-dashed span{
+	border-bottom: 1px dashed transparent;	
+}
+
 a.link-icon,
 a.link-icon:hover,
 a.b-link-double,
@@ -48,34 +53,49 @@ a.b-link-double:hover {
 :focus {outline: 0;}
 table {border-collapse:collapse; border-spacing:0;}
 
+.text-error {
+	color: #F15A24;
+}
+
+.inline-block {
+    display: inline-block; *display: inline; *zoom: 1;
+}
+
 /* l-layout */
 html, body {
 	height: 100%;
 	width: 100%;
-	min-width: 1000px;
 	background: #dcded6;
 	font-family: Arial;
 	font-size: 12px;
 	color: #919191;
 }
 
+body {
+	min-width: 1004px;
+	max-width: 1440px;
+	line-height: 1.2;
+}
+
 .l-clear:after {
 	clear: both;
-	font-size:0;
-	height:0;
-	line-height:0;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+
+.ui-overflow-x {
+	overflow-x: hidden;
 }
 
 .l-body {	
-	padding: 0 4% 0 8%;
-	min-width: 1004px;
-	max-width: 1280px;
+	padding: 0 6%;
 }
 
 .l-header {
 	overflow: hidden;
 	padding-top: 46px;
-	padding-bottom: 31px;
+	padding-bottom: 60px;
 }
 
 .l-page {
@@ -94,19 +114,25 @@ html, body {
 }
 
 .l-content {
+	position: relative;
 	float: left;
-	width: 70%;
+	width: 68%;
 }
 
-.l-widgets {
+.l-widgets {	
+	position: relative;
 	float: right;
-	width: 25%;
+	width: 30%;
+}
+
+.widget-block {
+	width: 95%;
 }
 
 /* Header Block */
 .b-find {
 	float: left;
-	width: 70%;
+	width: 68%;
 }
 
 .find-wrapper {
@@ -142,7 +168,7 @@ html, body {
 /* user Info */
 .b-user-info {
 	float: right;
-	width: 25%;
+	width: 28%;
 	padding-top: 9px;	
 }
 
@@ -218,12 +244,14 @@ html, body {
 	background-position: right 0;
 }
 
-.nav-item-call {
+.l-nav .nav-item-call {
+	display: none;
 	margin-top: -10px;
+	background: url(../img/lefy-menu-call-active.png) no-repeat;
 }
 
 .nav-item-call.nav-active {
-	background: url(../img/lefy-menu-call-active.png) no-repeat;
+	display: block;	
 }
 
 .nav-item-call .nav-text {
@@ -392,6 +420,8 @@ html, body {
 
 /* Content Block */
 .content-header  h4 {
+	margin-top: -3px;
+	
 	font-size: 24px;
 	font-weight: normal;
 	color: #000;
@@ -416,10 +446,11 @@ html, body {
 .b-button {
 	border: 1px solid #b8b8b8;
 	border-radius: 3px;
-	height: 19px;
-	padding: 5px 24px 0 24px;
+	height: 24px;
+	padding: 0 24px 0 24px;
 	
-	font-size: 11px;
+	font-size: 12px;
+	line-height: 24px;
 	background: url(../img/button-bg.png) #dcdcdc;
 	color: #000;
 }
@@ -429,6 +460,7 @@ html, body {
 }
 
 .b-link-back {
+	margin-top: -4px;
 	border: 0!important;
 	padding-left: 17px;
 	background: url(../img/back-to-list.png) no-repeat 0 -29px;
@@ -440,4 +472,215 @@ html, body {
 .b-link-back:hover {
 	border: 0;
 	background-position: 0 0;
+}
+
+.b-content {
+	position: relative;
+	margin-top: 10px;
+	border: 1px solid #b3b3b3;
+	background: #fff;
+}
+
+/* Common styles */
+.b-rating {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 4px;
+	background: #009245;
+}
+
+.b-rating-all {
+	width: 100%;
+	background: #ccc;
+}
+
+.rating-text {
+	position: absolute;
+	top: 9px;
+	left: 95%;
+	
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	white-space: nowrap;
+}
+
+.b-rating-all p {
+	left: auto;
+	right: 5px;
+}
+
+h3.collapse-header {
+	display: inline-block; *display: inline; zoom: 1;
+	margin-left: -23px;
+	padding-left: 23px;
+	
+	font-size: 21px;
+	cursor: pointer;	
+}
+
+.collapse-show > h3.collapse-header, 
+h3.collapse-header:hover {
+	background: url(../img/collapse-icon.png) no-repeat left center;
+}
+
+.collapse-header span {
+	border-bottom: 1px dashed transparent;	
+}
+
+.collapse-inner {
+	display: none;
+}
+
+.collapse-show  > .collapse-inner {
+	display: block;
+}
+
+/* Form List of Call*/
+
+.b-organization-header {
+	position: relative;
+	padding: 18px 30% 8px 21px;
+	background: #e6e6e6;
+}
+
+.organization-form {
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	width: 30%;
+}
+
+.organization-category {
+	margin-bottom: 8px;
+}
+
+.organization-category a {
+	margin: 0 8px;
+	border-color: #737373;
+	color: #000;
+}
+
+.organization-category span {
+	color: #666;
+}
+
+.organization-category a.link-category-close {
+	position: relative;
+	top: -4px;
+	margin: 0 5px 0 0;
+	border-radius: 10px;
+	border: 0;
+	padding: 4px 28px 4px 12px;
+	color: #fff;
+	background: url(../img/button-cross.png) #333 92% center no-repeat;
+}
+
+.organization-form p {
+	position: relative;
+	width: 100%;
+	min-height: 35px;
+}
+
+.organization-form input[type="text"] {
+	float: right;
+	margin-bottom: 11px;
+	border-radius: 10px/11px;
+	border: 1px solid #959699;
+	padding: 3px 10px 3px 25px;
+	width: 82%;
+	
+	font-size: 11px;
+	color: #A1A3A6;
+	background: url(../img/input-find-bg.png) #fff no-repeat 4% center;
+}
+
+.organization-form  input[type="checkbox"] {
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+.organization-form label {
+	display: block;
+	padding-left: 30px;
+	font-size: 11px;
+	color: #000;
+}
+
+.organization-table-header {
+	overflow: hidden;
+	background: #f2f2f2;	
+}
+
+.organization-th {
+	float: left;
+	width: 16%;
+	padding: 5px 0;
+	
+	text-align: center;
+	text-transform: uppercase;
+	color: #6D6E70;
+	font-size: 10px;
+}
+
+.organization-th-name {
+	width: 51%;
+	color: #fff;
+	background: #b3b3b3;	
+}
+
+.b-organization-new {
+	margin-bottom: 12px;
+	border-bottom: 4px solid #b3b3b3;
+}
+
+.organization-new-header {
+	padding: 13px 0 0 15px;
+	
+	font-size: 14px;
+	color: #808080;
+	font-style: italic;
+}
+
+.organization-line {
+	overflow: hidden;
+	border-top: 1px solid #d9d9d9;
+	padding: 14px 0 6px 0;
+}
+
+div.organization-line:first-child {
+	border-top: 0;
+}
+
+.organization-td {
+	float: left;
+	width: 16%;
+	text-align: center;
+	font-size: 11px;
+}
+
+.organization-td-info {
+	position: relative;
+	width: 51%;
+	text-align: left;
+}
+
+.organization-td-info p {
+	padding-left: 52px;
+}
+
+.organization-td-info a {
+	margin-bottom: 2px;
+	
+	border-color: #000;
+	font-size: 14px;
+	color: #333;
+}
+
+.organization-td-check {
+	position: absolute;
+	top: 5px;
+	left: 15px;
 }

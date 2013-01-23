@@ -1,0 +1,31 @@
+.widget-progress {
+	margin-bottom: 10px;
+	
+	border: 1px solid #B3B3B3;
+	background: #fff;
+	color: #000;
+	font-size: 15px;
+}
+
+.widget-progress .w-add-header {
+	padding: 10px 22px 13px;
+	
+	font-size: 21px;
+}
+
+.widget-progress .w-content {
+	padding: 0 12px 20px 22px;
+}
+
+.progress-list {
+	padding: 2px 0 20px 40px;
+	background: url(../../img/widget/progress-icon.png) no-repeat;
+}
+
+.progress-document {
+	padding-bottom: 30px;
+}
+
+.progress-title {
+	background-position: 0 -61px;
+}

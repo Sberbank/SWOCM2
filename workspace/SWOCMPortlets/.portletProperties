@@ -5,4 +5,46 @@
             <value>/_ClientCallPortlet/jsp/html/ClientCallPortletView.jsp</value>
         </property>
     </portlet>
+    <portlet name="StudyPortlet">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_StudyPortlet/jsp/html/StudyPortletView.jsp</value>
+        </property>
+    </portlet>
+    <portlet name="StudyAnonsPortlet">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_StudyAnonsPortlet/jsp/html/StudyAnonsPortletView.jsp</value>
+        </property>
+    </portlet>
+    <portlet name="StudyAchievmentsPortlet">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_StudyAchievmentsPortlet/jsp/html/StudyAchievmentsPortletView.jsp</value>
+        </property>
+    </portlet>
+    <portlet name="FindClientsPortlet">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_FindClientsPortlet/jsp/html/FindClientsPortletView.jsp</value>
+        </property>
+    </portlet>
+    <portlet name="SellPortlet">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_SellPortlet/jsp/html/SellPortletView.jsp</value>
+        </property>
+    </portlet>
+    <portlet name="MonitoringPortlet">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_MonitoringPortlet/jsp/html/MonitoringPortletView.jsp</value>
+        </property>
+    </portlet>
+    <portlet name="Organisations">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_Organisations/jsp/html/OrganisationsPortletView.jsp</value>
+        </property>
+    </portlet>
 </portlet-properties>

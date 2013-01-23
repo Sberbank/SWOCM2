@@ -1,17 +1,24 @@
 /* Widget Rating */
 .widget-rating {
 	margin-bottom: 13px;
-	border: 1px solid #B3B3B3;
-	padding: 17px 19px 17px 34px;
-	
+	border: 1px solid #B3B3B3;	
 	background: #fff;
 	color: #333;
 	font-size: 16px;
 }
 
 .widget-rating .w-add-header {
+	padding: 17px 19px 0 34px;
 	font-size: 21px;
 	color: #000;
+}
+
+.widget-rating .w-content {
+	padding: 0 19px 0 34px;
+}
+
+.widget-rating .w-footer {
+	padding: 0 19px 17px 34px;
 }
 
 .w-rating-list {

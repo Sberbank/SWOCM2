@@ -1,0 +1,565 @@
+.b-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	min-height: 800px;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
+
+.ui-overlay .b-overlay {
+	display: block;
+}
+
+.b-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+
+.popup-header {
+	position: relative;
+}
+
+.popup-icon-close {
+	position: absolute;
+	top: -1px;
+	right: -28px;
+	width: 21px;
+	height: 21px;
+	background: url(../img/popup-icon-close.png) no-repeat left center;
+}
+
+/* popup presentation */
+.popup-presentation {
+    margin: -170px 0 0 -300px;
+    width: 600px;
+    height: 340px;
+}
+
+.presentation-inner {
+    border: 1px solid #B3B3B3;
+    padding: 24px 50px;
+    background: #fff;
+}
+
+.popup-presentation .popup-icon-close {
+    top: -9px;
+    right: -35px;
+}
+
+.presentation-product {
+    margin: 20px 20px 18px 0;
+    max-width: 95px;
+    text-align: center;
+}
+
+.presentation-product img {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.presentation-product p {
+    font-size: 9px;
+    color: #333;
+}
+
+.b-call-send {
+    color: #b3b3b3;
+}
+
+.b-call-send p {
+    overflow: hidden;
+    padding-top: 8px;
+}
+
+.b-call-send label {
+    float: left;
+    padding-top: 7px;
+    width: 50px;
+    font-weight: bold;
+}
+
+.b-call-send input {
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #B3B3B3;
+    padding: 5px 7px;
+    width: 50%;
+    color: #b3b3b3;
+}
+
+.b-call-send-active  input,
+.b-call-send-active  label {
+    border-color: #3fa9f5;
+    color: #000;
+}
+
+.popup-presentation .b-call-send-link {
+    overflow: hidden;
+    margin: 13px -65px 0 0;
+}
+
+.b-call-send-link .b-button,
+.b-call-send-link .b-link{
+    float: right;
+    margin-right: 34px;
+}
+
+.b-call-send-link .b-link{
+    margin-top: 7px;
+    border-color: #999;
+    color: #999;
+}
+
+.b-call-send-link .b-button {
+    padding-top: 5px;
+    padding-left: 37px;
+    height: 28px;
+    line-height: 25px;
+    background: #e6e6e6;
+    font-weight: bold;
+}
+
+.b-call-send-link .b-button i {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 26px;
+    width: 28px;
+    background: url(../img/button-accepted.png) no-repeat left center;
+}
+
+/* popup  meeting*/
+.popup-meeting {
+    margin: -170px 0 0 -300px;
+    width: 600px;
+    height: 340px;
+}
+
+.meeting-inner {
+    border: 1px solid #B3B3B3;
+    padding: 24px 50px;
+    background: #fff;
+}
+
+.popup-meeting .popup-icon-close {
+    top: -9px;
+    right: -35px;
+}
+
+.popup-meeting .b-call-my-time {
+    margin: 19px 0 8px;
+    font-weight: bold;
+}
+
+.call-time-header,
+.call-time-line {
+    overflow: hidden;
+}
+
+.call-time-header p {
+    float: left;
+    width: 19%;
+    padding: 0 0 7px 3px;
+
+    font-size: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.call-time-ceil {
+    float: left;
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-top: 0;
+    width: 19%;
+    padding: 2px 0 9px 3px;
+    min-height: 7px;
+
+    font-size: 9px;
+    color: #000;
+}
+
+.call-time-ceil:first-child {
+    border-left: 1px solid #a0a0a0;
+}
+
+.call-time-line-first .call-time-ceil {
+    border-top: 1px solid #a0a0a0;
+}
+
+.call-time-ceil-free:hover,
+.call-time-active {
+    border-bottom: 1px solid #88c457;
+    background: #9dda6c;
+    cursor: pointer;
+}
+
+.call-time-ceil-free {
+    border-bottom: 1px solid #e8e069;
+    background: #fdf57e;
+}
+
+.call-time-line .call-time-inactive {
+    background: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    cursor: default;
+}
+
+.popup-meeting .b-call-send-link {
+    overflow: hidden;
+    margin: 13px -65px 0 0;
+}
+
+/** popup-proposal */
+.proposal-step {
+    margin: -250px 0 0 -330px;
+    width: 660px;
+    height: 500px;
+}
+
+.proposal-inner {
+    border: 1px solid #808080;
+    border-top: 0;
+    background: #fff;
+}
+
+.proposal-header {
+     padding: 23px 30px 0;
+
+     background: #E6E6E6;
+     color: #000;
+ }
+
+.proposal-header-h4 {
+    padding-bottom: 7px;
+
+    font-size: 14px;
+}
+
+.proposal-header-h4 i {
+    margin-left: 9px;
+    font-weight: normal;
+    color: #39B54A;
+}
+
+.proposal-link-credit {
+    padding-bottom: 13px;
+}
+
+.proposal-link-credit a {
+    border-color: #000;
+    font-size: 13px;
+    color: #000;
+}
+
+.proposal-header-text span {
+    margin-left: 20px;
+}
+
+a.link-additional {
+    border-color: #29ABE2;
+    color: #29ABE2;
+}
+
+.proposal-step-line {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -30px;
+    padding-top: 23px;
+}
+
+.proposal-step-line-item {
+    position: relative;
+    float: left;
+    width: 20%;
+
+    border-bottom: 3px solid #AAC2CC;
+    color: #969696;
+}
+
+.proposal-step-line-text {
+    padding: 13px 0 7px 7px;
+}
+
+.proposal-step-line-active {
+   border-color: #39B54A;
+   background: url(../img/proposal-step.png) no-repeat;
+   color: #000;
+}
+
+.proposal-step-line-done {
+    border-color: #333;
+}
+
+.proposal-step-line-item:first-child {
+    background-position: 11px 0;
+}
+
+.proposal-step-line-active .proposal-step-line-text {
+    padding-left: 28px;
+}
+
+.proposal-step-line-item span {
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 2px;
+    height: 3px;
+    background: #808080;
+}
+
+.proposal-content {
+    border-top: 1px solid #E6E6E6;
+    padding: 16px 0 16px 30px;
+}
+
+.proposal-content-info {
+    padding-top: 37px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.proposal-info-text {
+    margin: 10px 0 24px;
+    font-size: 18px;
+    color: #000;
+}
+
+.proposal-content-info a {
+    padding-left: 16px;
+    background: url(../img/link-dash-arrow.png) no-repeat left center;
+}
+
+.proposal-content-info a span {
+    border-color: #000;
+    color: #000;
+}
+
+.proposal-form-item {
+    min-height: 20px;
+    padding-bottom: 12px;
+
+    color: #000;
+    line-height: 21px;
+ }
+
+.proposal-label {
+    float: left;
+    width: 160px;
+    
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.proposal-input {
+    float: left;
+    margin-right: 8px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 0 6px;
+    width: 250px;
+}
+
+.proposal-form-item .ui-select {
+    width: 264px;
+}
+
+.proposal-form-item .proposal-additional-select {
+    width: 65px;
+}
+
+.proposal-form-disable {
+    color: #999!important;
+}
+
+.proposal-radio {
+    padding-left: 9px;
+}
+
+.proposal-radio label {
+    position: relative;
+    top: -3px;
+    margin: 0 17px 0 1px;
+}
+
+.proposal-checkbox {
+    display: block;
+    padding: 7px 0 0 160px;
+    clear: both;
+}
+
+.proposal-checkbox label {
+    position: relative;
+    top: -3px;
+    left: 6px;
+}
+
+.b-proposal-check {
+    display: block;
+    float: left;
+    padding: 3px 0 0 29px;
+    width: 155px;
+
+    background: url(../img/loading.gif) no-repeat -3px center;
+    color: #999;
+}
+
+.proposal-check-true {
+    padding-left: 29px;
+    background: url(../img/b-accepted.png) no-repeat 3px center;
+}
+
+.proposal-check-error {
+    padding: 0 0 0 29px;
+    background: url(../img/icon-error.png) no-repeat 0 2px;
+    color: #F00;
+    line-height: 15px;
+}
+
+.proposal-footer {
+    overflow: hidden;
+    padding: 10px 30px 17px;
+}
+
+.proposal-footer a {
+    border-color: #000;
+    margin-top: 13px;
+
+    font-size: 13px;
+    color: #000;
+}
+
+.proposal-footer .button-next {
+    float: right;
+}
+
+.button-next {
+    border: 1px solid #b2d1c3;
+    height: 37px;
+
+    font-weight: bold;
+    line-height: 37px;
+    background: #c3e9c8;
+    color: #fff;
+}
+
+.button-next i {
+    position: absolute;
+    top: -1px;
+    right: -11px;
+    height: 39px;
+    width: 14px;
+    background: url(../img/button-next-bg.png) no-repeat;
+}
+
+div.button-next:hover {
+    border: 1px solid #006837;
+    background: #39b549;
+    color: #fff;
+}
+
+
+div.button-next:hover i {
+    background-position: 0 -39px;
+}
+
+/* proposal step 3 */
+.proposal-step3 {
+    margin-top: 0;
+    height: 1150px;
+}
+
+.proposal-content-header {
+    position: relative;
+    margin-right: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0 0 80px;
+}
+
+.proposal-registry {
+    position: absolute;
+    top: 15px;
+    left: -13px;
+    width: 80px;
+
+    background: url(../img/proposal-registry.png) no-repeat top center;
+}
+
+.proposal-content-text {
+    padding-top: 95px;
+    text-align: center;
+    font-size: 8px;
+    color: #666;
+}
+
+.proposal-content-h4 {
+   padding-bottom: 15px;
+
+   font-size: 15px;
+   text-transform: uppercase;
+   color: #999;
+}
+
+.proposal-registry-text {
+    margin-bottom: 23px;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+.proposal-registry-label {
+    width: 142px;
+}
+
+.proposal-registry-link {
+    position: absolute;
+    top: 36px;
+    right: 0;
+    width: 145px;
+}
+
+.proposal-link-text {
+    margin-top: 7px;
+
+    font-size: 10px;
+    color: #999;
+}
+
+.proposal-registry-link a {
+    border-color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+.proposal-step3 .proposal-label {
+    width: 180px;
+}
+
+.proposal-step3 .proposal-checkbox {
+    padding-left: 180px;
+}
+
+.proposal-step-header {
+    margin: 21px 0 12px;
+
+    font-size: 15px;
+    color: #000;
+}
+
+.proposal-form-additional {
+    padding-left: 20px;
+}
+
+.proposal-form-additional .proposal-label {
+    width: 160px;
+    font-weight: normal;
+}

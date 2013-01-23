@@ -1,6 +1,9 @@
 /* Widget Idea */
 .widget-idea {
 	margin-bottom: 22px;
+}
+
+.widget-idea .w-content {
 	padding: 13px 0 0 85px;
 	height: 27px;
 

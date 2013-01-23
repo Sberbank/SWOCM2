@@ -23,27 +23,30 @@
                             </c:if>
                         </c:if>
                     </c:forEach>
+
+                    <c:set var="selectedNode" value=""/>
                     <c:forEach var="node" items="${wp.navigationModel.children[wp.selectionModel.selectionPath[1]]}" varStatus="status" step="1">
                         <c:set var="nodeID" value="${node.objectID.uniqueName}"/>
                         <c:if test="${wp.selectionModel[node] != null}">
-                            <c:if test="${nodeID == 'swocm.calls'}">
-                                <c:set var="isCallPage" value="true" />
-                            </c:if>
+                            <c:set var="selectedNode" value="${node.objectID.uniqueName}"/>
                         </c:if>
                     </c:forEach>
 
 
 					<div class="l-nav">
-						<div class="nav-item nav-item-lenta <c:if test="${isIndexPage}">nav-active</c:if>"><p class="nav-text">Лента</p></div>
+						<div class="nav-item nav-item-lenta <c:if test="${isIndexPage && (selectedNode=='swocm.calls'||selectedNode=='')}">nav-active</c:if>"
+                            onclick="location.href='/wps/myportal/swocm';">
+                            <p class="nav-text">Лента</p>
+                        </div>
 
-                        <c:if test="${isCallPage}">
+                        <c:if test="${selectedNode=='swocm.calls'}">
                             <div class="nav-item nav-item-call nav-active">
                                 <p class="nav-text">4:21</p>
                             </div>
                         </c:if>
 
 						<div class="b-nav-process">
-							<div class="nav-item nav-item-study">
+							<div class="nav-item nav-item-study <c:if test="${selectedNode=='swocm.study'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/study';">
 								<p class="nav-text">Учеба</p>
 								<div class="b-nav-indicator">
 									<div class="nav-indicator-bg">&nbsp;</div>
@@ -52,7 +55,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="nav-item nav-item-clients">
+							<div class="nav-item nav-item-clients <c:if test="${selectedNode=='swocm.findclients'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/findclients';">
 								<p class="nav-text">Поиск клиентов</p>
 								<div class="b-nav-indicator b-nav-indicator-number">
 									<div class="nav-indicator-bg">
@@ -63,7 +66,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="nav-item nav-item-sell">
+							<div class="nav-item nav-item-sell <c:if test="${selectedNode=='swocm.sell'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/sell';">
 								<p class="nav-text">Продажи</p>
 								<div class="b-nav-indicator b-nav-indicator-number">
 									<div class="nav-indicator-bg">
@@ -74,7 +77,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="nav-item nav-item-monitoring">
+							<div class="nav-item nav-item-monitoring <c:if test="${selectedNode=='swocm.monitoring'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/monitoring';">
 								<p class="nav-text">Мониторинг</p>
 								<div class="b-nav-monitoring">
 									<div class="nav-monitoring-item nav-monitoring-green nav-monitoring-first" style="width: 49%;"><p>47</p></div>
@@ -83,12 +86,12 @@
 								</div>
 							</div>
 						</div>						
-						<div class="nav-item nav-item-organisation"><p class="nav-text">Организации</p></div>
-						<div class="nav-item nav-item-product"><p class="nav-text">Продукты</p></div>
-						<div class="nav-item nav-item-calendar"><p class="nav-text">Календарь</p></div>
-						<div class="nav-item nav-item-my-client"><p class="nav-text">Мои клиенты</p></div>
-						<div class="nav-item nav-item-documents"><p class="nav-text">Документы</p></div>
-						<div class="nav-item nav-item-reposts"><p class="nav-text">Отчеты</p></div>
+						<div class="nav-item nav-item-organisation <c:if test="${selectedNode=='swocm.organisations'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/organisations';"><p class="nav-text">Организации</p></div>
+						<div class="nav-item nav-item-product <c:if test="${selectedNode=='swocm.products'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/products';"><p class="nav-text">Продукты</p></div>
+						<div class="nav-item nav-item-calendar <c:if test="${selectedNode=='swocm.calendar'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/calendar';"><p class="nav-text">Календарь</p></div>
+						<div class="nav-item nav-item-my-client <c:if test="${selectedNode=='swocm.myclients'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/myclients';"><p class="nav-text">Мои клиенты</p></div>
+						<div class="nav-item nav-item-documents <c:if test="${selectedNode=='swocm.documents'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/documents';"><p class="nav-text">Документы</p></div>
+						<div class="nav-item nav-item-reposts <c:if test="${selectedNode=='swocm.reports'}">nav-active</c:if>" onclick="location.href='/wps/myportal/swocm/reports';"><p class="nav-text">Отчеты</p></div>
 						<div class="nav-item nav-item-add"><p class="nav-text">&nbsp;</p></div>
 					</div>
 

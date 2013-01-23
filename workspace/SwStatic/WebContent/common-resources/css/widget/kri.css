@@ -1,5 +1,10 @@
 .widget-kri {
+	margin-top: -37px;
 	height: 72px;
+}
+
+.widget-kri-lenta {
+	margin-top: 0;
 }
 
 .widget-kri .w-header {

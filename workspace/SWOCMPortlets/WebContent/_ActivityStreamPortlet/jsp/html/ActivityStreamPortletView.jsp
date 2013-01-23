@@ -6,10 +6,13 @@
 <%@ taglib uri="http://java.sun.com/portlet" prefix="portlet"%>
 <portlet:defineObjects/>
 						<!-- Start Lenta Content -->
+			<div class="l-lenta ui-tabs ui-widget ui-widget-content ui-corner-all">
 						<div class="content-header">
 							<h4>Лента активности сегодня</h4>
-							<ul class="lenta-nav">
-								<li class="lenta-nav-item lenta-nav-item-active"><p>Все</p><span>&nbsp;</span></li>				
+							<ul class="lenta-nav ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+								<li class="lenta-nav-item lenta-nav-item-active ui-state-default ui-corner-top ui-tabs-active ui-state-active">
+									<p><a href="#tab-all">Все</a></p><span>&nbsp;</span>
+								</li>				
 								<li class="lenta-nav-item"><p>Задачи</p><span>&nbsp;</span></li>	
 								<li class="lenta-nav-item"><p>Звонки</p><span>&nbsp;</span></li>	
 								<li class="lenta-nav-item"><p>Встречи</p><span>&nbsp;</span></li>	
@@ -41,7 +44,7 @@
 			                			durationMinutes: f.durationMinutes,
 			                			intersection: f.intersection
 			                		});
-			                		
+
 			                		el.css('opacity', 0);
 			                		el.appendTo("#meetingsList");
 			                		el.animate({opacity: 1}, 500, function () {

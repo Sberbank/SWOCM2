@@ -1,0 +1,416 @@
+.b-find-clients {
+	padding: 54px 43px;
+	color: #000;
+}
+
+.b-find-link .b-link {
+	padding-top: 9px;
+	border-color: #998675;
+	font-size: 13px;
+	color: #998675;
+}
+
+.find-link-step {
+	display: inline-block; *display: inline; zoom: 1;
+	margin: 0 6px 0 17px;
+	width: 24px;
+	height: 34px;
+	background: url(../img/link-step.png) no-repeat left center;
+}
+
+.b-find-link .link-find-start {
+	border-radius: 11px;
+	border: 1px solid #333;
+	padding: 7px 8px 6px;
+	
+	font-weight: bold;
+	color: #1a1a1a;
+}
+
+.b-find-link .link-find-active {
+	border-radius: 11px;
+	padding: 7px 9px 6px;
+	
+	font-weight: bold;
+	background: #808080;
+	color: #F2F2F2;
+}
+
+.b-find-form-list-call {
+	margin-top: 30px;
+}
+
+a.link-find-list-call {
+	border: 0;
+	padding: 4px 0 5px 43px;
+	width: 140px;
+	
+	background: url(../img/find-form-list-call.png) no-repeat left center;
+}
+
+a.link-find-list-call span {
+	border-bottom: 1px dashed #29abe2;
+	line-height: 17px;
+	color: #29abe2;
+}
+
+a.link-find-list-call:hover span {
+	border-color: #fbb13b;
+	border-color: rgba(251, 177, 59, 0.6);
+	color: #fbb13b;
+}
+
+.b-find-product {
+	overflow: hidden;
+	margin: 24px -1px 21px 0;
+}
+
+.find-clients-product {
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-left: 3%;
+	width: 31%;
+}
+
+.find-clients-product:first-child {
+	margin-left: 0;
+}
+
+.find-product-inner {
+	position: relative;
+	padding: 11px 21px;
+}
+
+.find-product-content {
+	min-height: 100px;
+}
+
+.find-product-rating {
+	position: absolute;
+	top: 11px;
+	right: 14px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+}
+
+.find-product-inner .b-link {
+	border-color: #0071BC;
+	
+	font-weight: bold;
+	font-size: 14px;
+	color: #0071BC;
+}
+
+.find-product-inner p {
+	margin-top: 10px;
+	line-height: 1.4;
+}
+
+.find-product-inner p .b-link {
+	display: inline;
+	font-size: 12px;
+}
+
+.find-product-inner .b-button {
+	border: 0;
+	margin-top: 18px;
+	padding: 0;
+	width: 100%;
+	
+	background: #8CC63F;
+	color: #fff;
+	text-align: center;
+}
+
+.find-clients-header {
+	font-size: 22px;
+	color: #808080;
+}
+
+.find-client-planning-header {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.find-client-planning-th {
+	float: left;
+	width: 20%;
+}
+
+.find-client-planning-th p {
+	border: 1px solid #ccc;
+	border-left: 0;
+	padding: 9px 20px;
+}
+
+.find-client-planning-th:first-child p {
+	border-left: 1px solid #ccc;
+	border-radius: 3px 0 0 0;
+}
+
+.find-client-planning-th-last p {
+	border-radius: 0 3px 0 0 ;
+}
+
+.find-client-planning-th-today p {
+	background-color: #fcedba;
+}
+
+.find-client-planning {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0 0 3px 3px;	
+	height: 220px;
+	background: url(../img/find-client-planning-bg.png);
+}
+
+.find-client-planning-td {	
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.find-client-planning-inner {
+	position: relative;
+	border-right: 1px solid #ccc;
+	height: 100%;
+}
+
+.find-client-planning-td:first-child  .find-client-planning-inner{	
+	border-left: 1px solid #ccc;
+}
+
+.find-client-planning-task {
+	position: absolute;
+	left: 1px;
+	right: 1px;
+	background-color: #B5E9FF;
+	border: 1px solid #29ABE2;
+	border-radius: 3px;
+}
+
+.find-client-planning-now {
+	position: absolute;
+	left: -2px;
+	right: -2px;
+	height: 4px;
+	border: 1px solid #fff;
+	height: 4px;
+	background-color: #f7931e;
+	z-index: 11;
+}
+
+h3.find-client-header {
+	margin-left: -12px;
+	padding: 18px 0 9px;
+	
+	font-weight: normal;
+	font-size: 20px;
+}
+
+p.find-client-header {
+	margin-left: -12px;
+	font-style: italic;
+	color: #808080;
+}
+
+.l-find-clients form {
+	margin: 20px -38px;
+}
+
+.b-find-client-button {
+	overflow: hidden;
+	margin: 32px 0 0 12px;
+}
+
+.b-find-client-button  .b-link, 
+.b-find-client-button  .b-button,
+.fint-client-button-text {
+	float: left;
+}
+
+.b-find-client-button  .b-link {
+	border-color: #000;
+	color: #000;
+}
+
+.fint-client-button-text {
+	margin: 5px 20px 0 24px;
+	color: #999;
+}
+
+.fint-client-text-after {
+	margin: 12px 0 0 23px;	
+}
+
+.fint-client-text-after .b-link-dashed {
+	border-color: #999;
+	color: #999;	
+}
+
+
+.b-lenta-task {
+	margin-bottom: 17px;
+	width: 90%;
+	max-width: 800px;
+	
+	background: #fff;
+	box-shadow: 0 1px 5px #777;
+	line-height: 1.3;	
+	color: #000;
+}
+
+/* Lenta Task Default */
+.b-lenta-task-item {
+	border-left: 4px solid #ffa838;
+	margin-left: 32px;
+}
+
+.b-lenta-task-item  p {
+	color: #818181;
+}
+
+.lenta-task-important p {
+	color: #000;
+}
+
+.lenta-task-content a {
+	color: #387b9d;
+	border-bottom: 1px solid #a7bfce;
+}
+
+.lenta-task-content a:hover {
+	color: #fbb13b;
+	border-color: #fbb13b;
+	border-color: rgba(251, 177, 59, 0.6);
+}
+
+.lenta-task-footer {
+	overflow: hidden;
+	padding: 0 14px 10px 29px;
+}
+
+.lenta-task-footer .b-button {
+	float: right;
+	margin-left: 14px;
+}
+/* Lenta Task Call */
+.lenta-task-call { 
+	position: relative;
+	border-left: 4px solid #969696;
+	border-radius: 6px;
+	background: #e5e5e8;
+}
+
+.lenta-call-list {
+	position: relative;
+	border-top: 1px solid #dadadd;
+	padding: 11px 78px 10px 0;
+	
+	color: #5f5f61;
+	cursor: pointer;
+}
+
+.lenta-call-list strong {
+	color: #000;
+}
+
+.lenta-call-list:first-child {
+	border-top: 0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+.lenta-call-list:hover {
+	background: url(../img/lenta-call-favorite.png) 7px 14px #fff no-repeat;
+}
+
+.lenta-call-icon {
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	margin-top: -18px;
+	width: 36px;
+	height: 36px;
+	font-size: 0;
+	background: url(../img/lenta-call.png);
+}
+
+.lenta-call-list:hover .lenta-call-icon {
+	display: block;
+}
+
+.lenta-call-icon:hover {
+	background-position: 0 -36px;
+}
+
+.lenta-call-header, 
+.lenta-call-text {
+	padding-left: 27px;
+}
+
+.lenta-task-call  .lenta-task-footer { 
+	border-top: 1px solid #bababc;
+	padding: 6px 10px 6px 24px;
+	background: #c3c3c3;
+}
+
+.lenta-task-call  .lenta-task-footer  .b-button{	
+	float: left;
+	margin: 0;
+	border: 1px solid #8D8D8E;
+}
+
+/* Lenta Task Call Info */
+.lenta-task-call-info {
+	margin: 46px 0 0 -20px;
+	border-left: 4px solid #55a4dd;
+}
+
+.lenta-task-call-info-header {
+	position: absolute;
+	top: -18px;
+	left: -4px;	
+	height: 21px;
+	width: 266px;
+	padding: 3px 0 0 26px;
+	
+	font-size: 11px;
+	color: #fff;
+	background: url(../img/lenta-call-info.png) no-repeat;
+	z-index: 10;
+}
+
+
+.lenta-call-number {
+	display: none;
+	padding: 8px 0 18px 25px;
+}
+
+.lenta-call-number a {
+	border-color: #00a4cf;
+	font-size: 22px;
+	color: #00a4cf;
+}
+
+.lenta-task-call .lenta-call-list-active  {
+	background: #fff;
+	cursor: default;
+}
+
+.lenta-call-list-active .lenta-call-number {
+	display: block;
+	
+}
+
+.lenta-call-list-active .lenta-call-icon {
+	display: block;
+	right: 6px;
+	width: 60px;
+	
+	background: url(../img/lenta-call-active.png)  no-repeat;
+	cursor: pointer;
+}

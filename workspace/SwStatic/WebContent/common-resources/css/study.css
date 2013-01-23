@@ -1,0 +1,91 @@
+.b-study {
+	padding: 54px 43px;
+	color: #000;
+} 
+
+.b-study .b-collapse {
+	margin-bottom: 50px;
+}
+
+.b-study .collapse-header span {
+	border-color: #000;		
+}
+
+.study-progress {
+	margin-top: 11px;
+	font-size: 14px;	
+}
+
+.study-progress-bg {
+	height: 8px;
+	width: 100%;
+	
+	border-radius: 3px;
+	background: #ccc;
+}
+
+.study-progress-current {
+	position: relative;
+	top: -8px;
+	height: 8px;
+	width: 100%;
+	
+	border-radius: 3px 0 0 3px;
+	background: #333;
+}	
+
+.study-progress-text {
+	position: absolute;
+	top: 8px;
+	right: -12px;
+}
+
+.collapse-inner {
+	padding: 15px 24px 0 24px;
+}
+
+.study-list-item {
+	position: relative;
+	margin-bottom: 20px;
+	padding-right: 90px;
+	font-size: 14px;
+	color: #666;
+}
+
+.study-list-item  p {
+	margin-top: 4px;
+}
+
+.study-list-item  .b-link {
+	border-color: #0071BC;
+	font-size: 16px;
+	color: #0071BC;
+}
+
+.study-list-button p {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.study-list-button {
+	position: absolute;
+	top: 0;
+	right: -20px;
+}
+
+.study-list-button .b-button {
+	border: 0;
+	border-radius: 4px;
+	height: 26px;
+	
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	background: #4D4D4D;
+}
+
+.study-accepted {
+	padding-top: 10px;
+	padding-left: 21px;	
+	background: url(../img/study-accepted.png) no-repeat left center;
+}

@@ -1,0 +1,92 @@
+.b-monitoring {
+	padding: 54px 43px;
+	color: #000;
+}
+
+/* monitoring rating */
+.monitoring-rate-green {
+    background: #D9DE4F;
+}
+
+.monitoring-rate-orange {
+    background: #F2AE47;
+}
+
+.monitoring-rate-red {
+    background: #E95A37;
+}
+
+.monitoring-rate-text {
+    padding-top: 6px;
+    width: 100%;
+
+    font-size: 14px;
+    text-align: center;
+}
+
+.monitoring-header {
+    font-size: 21px;
+}
+
+.monitoring-info {
+    padding: 9px 0 38px 21px;
+}
+
+.monitoring-line {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.monitoring-line a {
+    border-color: #000;
+    font-size: 16px;
+    color: #000;
+}
+
+.monitoring-text {
+    margin-top: 5px;
+    margin-left: 2px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.monitoring-text a {
+    font-size: 14px;
+}
+
+.monitoring-text-item {
+   width: 25%;
+   margin-right: 20px;
+}
+
+.monitoring-price {
+    width: 20%;
+    text-align: right;
+}
+
+.monitoring-date {
+    padding-left: 20%;
+    margin-left: 20px;
+}
+
+.monitoring-call {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    width: 69px;
+    height: 38px;
+    background: url(../img/icon-list-call.png) no-repeat;
+    cursor: pointer;
+}
+
+.monitoring-red .monitoring-text-item {
+    color: #ED1C24;
+}
+
+.monitoring-orange .monitoring-text-item {
+    color: #F7931E;
+}
+
+.monitoring-green .monitoring-text-item {
+    color: #8CC63F;
+}
